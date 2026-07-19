@@ -94,7 +94,40 @@ que decidas tú.
 |--------|---------|----------|
 | `scripts/organizar-descargas.ps1` | Windows | Clasifica por tipo, detecta duplicados por hash, temporales a Papelera, log. |
 | `scripts/organizar-descargas.sh`  | macOS / Linux | Igual, en bash. Usa `~/.local/share/Trash` (Linux) o Papelera de macOS. |
+| `scripts/clasificar-por-contenido.ps1` | Windows | Clasifica según el **contenido** del fichero (factura/acta/presupuesto...), no solo la extensión. |
+| `scripts/clasificar-por-contenido.sh`  | macOS / Linux | Igual, en bash. Lee texto de PDFs con `pdftotext`. |
 | `scripts/reglas.example.json`     | Todos | Reglas de clasificación editables (extensión → carpeta). |
+
+### Clasificación por contenido (recomendado para fincas)
+
+`clasificar-por-contenido` va más allá de la extensión: **lee el texto dentro de PDFs,
+TXT y CSV** y aplica reglas por palabras clave para enviar cada documento a su carpeta real
+—aunque el nombre del fichero no diga nada. Por ejemplo, un PDF escaneado llamado
+`documento_001.pdf` que contenga "Factura Nº... Base imponible... IVA" acaba en
+`Documentos/Facturas/`.
+
+Carpetas de destino según contenido: `Facturas`, `Actas`, `Presupuestos`, `Contratos`,
+`Seguros`, `Impuestos`, `Nominas`, `Certificados`, `Recibos`, `Bancos`. Las reglas
+(palabras clave → carpeta) están al principio del script; edítalas para tus proveedores y
+comunidades.
+
+Para leer el **contenido de los PDF** hace falta `pdftotext` (paquete *poppler*):
+- macOS: `brew install poppler`
+- Linux: `sudo apt install poppler-utils`
+- Windows: `winget install oschwartz10612.Poppler` (o poppler-windows en el PATH)
+
+Sin poppler, los PDF se clasifican por su nombre; el resto (TXT/CSV) sí se lee siempre.
+
+```bash
+# macOS / Linux — primero simula
+bash scripts/clasificar-por-contenido.sh --dry-run
+bash scripts/clasificar-por-contenido.sh
+```
+```powershell
+# Windows
+powershell -ExecutionPolicy Bypass -File scripts\clasificar-por-contenido.ps1 -DryRun
+powershell -ExecutionPolicy Bypass -File scripts\clasificar-por-contenido.ps1
+```
 
 Uso básico:
 
