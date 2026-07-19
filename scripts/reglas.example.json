@@ -1,0 +1,14 @@
+{
+  "_comentario": "Reglas de clasificacion editables: extension -> carpeta destino. Copia este archivo, ajusta a tu gusto y adapta los scripts para leerlo si quieres reglas centralizadas.",
+  "Documentos": ["pdf", "doc", "docx", "odt", "txt", "rtf", "xls", "xlsx", "csv", "ppt", "pptx"],
+  "Documentos/Facturas": ["_sugerencia_: mueve aqui manualmente los PDF cuyo nombre contenga 'factura' o 'FRA'"],
+  "Documentos/Actas": ["_sugerencia_: PDF/DOCX cuyo nombre contenga 'acta' o 'junta'"],
+  "Imagenes": ["jpg", "jpeg", "png", "gif", "heic", "webp", "svg", "bmp", "tiff"],
+  "Videos": ["mp4", "mov", "mkv", "avi", "wmv"],
+  "Audio": ["mp3", "wav", "m4a", "flac", "aac"],
+  "Instaladores": ["exe", "msi", "msix", "dmg", "pkg", "deb", "rpm", "appimage"],
+  "Comprimidos": ["zip", "rar", "7z", "tar", "gz", "bz2", "xz"],
+  "Codigo": ["py", "js", "ts", "sql", "json", "html", "css", "sh"],
+  "_temporales_a_papelera": ["tmp", "crdownload", "part", "partial", "download"],
+  "_basura_a_papelera": ["Thumbs.db", "desktop.ini", ".DS_Store"]
+}
