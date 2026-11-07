@@ -17,7 +17,7 @@ const DUR=37;
 const GOLD='#f5b942',GOLD2='#ffdf8a',RED='#ff2a2a',ORANGE='#ff7a1a';
 
 // hits: impactos sincronizados con el audio
-const HITS=[3.2,6.6,7.7,8.8,13.0,15.0,17.0,18.2,19.4,21.0,22.6,23.2,25.0,27.0,28.5,31.0];
+const HITS=[3.2,6.6,7.4,8.5,9.35,13.0,15.0,17.0,18.2,19.4,21.0,22.6,23.2,25.0,27.0,28.5,31.0];
 window.HITS=HITS;
 
 // ---------- utilidades ----------
@@ -332,18 +332,19 @@ function heatAt(t){
   return .8;
 }
 const BIG=[15,23.2,27,28.5,31];
-window.renderFrame=function(t){
+window.renderFrame=function(T,t){
+  if(t===undefined)t=T;
   g.setTransform(1,0,0,1,0,0);g.globalAlpha=1;g.globalCompositeOperation='source-over';g.filter='none';g.shadowBlur=0;
   background(t,heatAt(t));
   let rA=0;for(const b of BIG){if(t>=b) rA=t<b+4?Math.max(rA,.6+.4*(1-(t-b)/4)):rA}
   if(t<15||(t>=17&&t<23.2)) rA*=0.2;
-  rays(t,rA*(t>=31?1:.7));
-  embers(t,t<13?.5:1);
+  rays(T,rA*(t>=31?1:.7));
+  embers(T,t<13?.5:1);
   // cámara
-  const sh=shakeAt(t);seed=Math.floor(t*30)+3;
+  const sh=shakeAt(t);seed=Math.floor(T*30)+3;
   const big=BIG.some(b=>t>=b&&t<b+.5)?2.2:1;
   const ox=(rnd()-.5)*44*sh*big, oy=(rnd()-.5)*44*sh*big;
-  const drift=1+0.012*Math.sin(t*.7);
+  const drift=1+0.012*Math.sin(T*.7);
   g.save();g.translate(CX+ox,CY+oy);g.scale(drift,drift);g.translate(-CX,-CY);
   scene(t);
   g.restore();
@@ -354,7 +355,7 @@ window.renderFrame=function(t){
   const v=g.createRadialGradient(CX,CY,500,CX,CY,1250);v.addColorStop(0,'rgba(0,0,0,0)');v.addColorStop(1,'rgba(0,0,0,.85)');
   g.fillStyle=v;g.fillRect(0,0,W,H);
   // grano
-  g.globalAlpha=.07;g.globalCompositeOperation='overlay';g.drawImage(GRAIN[Math.floor(t*30)%8],0,0,W,H);
+  g.globalAlpha=.07;g.globalCompositeOperation='overlay';g.drawImage(GRAIN[Math.floor(T*30)%8],0,0,W,H);
   g.globalAlpha=1;g.globalCompositeOperation='source-over';
   // fundido de entrada / salida
   if(t<.25){g.fillStyle=`rgba(0,0,0,${1-t/.25})`;g.fillRect(0,0,W,H)}

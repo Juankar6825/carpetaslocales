@@ -9,9 +9,9 @@ const {chromium}=require('playwright');const {spawn}=require('child_process');co
  if(mode==='stills'){
   for(const t of process.argv.slice(4).map(Number)){await p.evaluate(t=>renderFrame(t),t);await el.screenshot({path:`${dir}/stills/s_${t}.jpg`,type:'jpeg',quality:80});}
  }else{
-  const fps=30,N=37*fps;
-  const ff=spawn('ffmpeg',['-y','-f','image2pipe','-framerate',''+fps,'-c:v','mjpeg','-i','-','-c:v','libx264','-preset','medium','-crf','18','-pix_fmt','yuv420p',`${dir}/video_noaudio.mp4`],{stdio:['pipe','ignore','inherit']});
-  for(let i=0;i<N;i++){await p.evaluate(t=>renderFrame(t),i/fps);const buf=await el.screenshot({type:'jpeg',quality:95});if(!ff.stdin.write(buf))await new Promise(r=>ff.stdin.once('drain',r));if(i%150==0)console.log('frame',i);}
+  const fps=30,FM=require(dir+"/framemap.json"),N=FM.frames.length;
+  const ff=spawn('ffmpeg',['-y','-f','image2pipe','-framerate',''+fps,'-c:v','mjpeg','-i','-','-c:v','libx264','-preset','medium','-crf','18','-pix_fmt','yuv420p',`${dir}/video_voz_noaudio.mp4`],{stdio:['pipe','ignore','inherit']});
+  for(let i=0;i<N;i++){await p.evaluate(([T,s])=>renderFrame(T,s),[i/fps,FM.frames[i]]);const buf=await el.screenshot({type:'jpeg',quality:95});if(!ff.stdin.write(buf))await new Promise(r=>ff.stdin.once('drain',r));if(i%150==0)console.log('frame',i);}
   ff.stdin.end();await new Promise(r=>ff.on('close',r));
  }
  await b.close();
