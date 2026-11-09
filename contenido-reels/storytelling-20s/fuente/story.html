@@ -36,7 +36,8 @@ window.renderFrame=(t)=>{
  const [k1,k2]=D.key.split('|');const ka=t<fo?1:1-pr(t,fo,fo+.3);
  if(t>tw&&ka>0){g.save();g.globalAlpha=ka;slam(k1,CX,430,t,tw,{size:110,stroke:12,from:2.4});slam(k2,CX,580,t,tw+.15,{size:150,gold:true,glow:50,stroke:14,from:2.6});g.restore()}
  // subtítulos
- if(t<fo){for(const [a,b,c] of D.caps){if(t>=a&&t<b){const p=eOut(pr(t,a,a+.12));T(c.toUpperCase(),CX,1300,{size:90,stroke:14,maxW:820,scale:lerp(1.08,1,p),alpha:clamp((t-a)/.06)})}}}
+ if(window.COVER){T('EL GRAN MANIFESTADOR',540,1500,{f:'Cinzel',w:900,size:54,gold:true,sp:4,glow:20,maxW:900});T('CON NEOX',540,1590,{f:'Oswald',w:500,size:40,sp:12,color:'#f1e2bd'})}
+ if(!window.COVER&&t<fo){for(const [a,b,c] of D.caps){if(t>=a&&t<b){const p=eOut(pr(t,a,a+.12));T(c.toUpperCase(),CX,1300,{size:90,stroke:14,maxW:820,scale:lerp(1.08,1,p),alpha:clamp((t-a)/.06)})}}}
  // cierre: sígueme
  if(t>fo){const p=pr(t,fo,fo+.35);g.save();g.globalAlpha=p;g.fillStyle='rgba(8,4,2,.82)';g.fillRect(0,0,W,H);g.restore();
   const gr=g.createRadialGradient(540,1000,50,540,1000,900);gr.addColorStop(0,`rgba(120,60,10,${.5*p})`);gr.addColorStop(1,'rgba(0,0,0,0)');g.fillStyle=gr;g.fillRect(0,0,W,H);embers(t,p);
