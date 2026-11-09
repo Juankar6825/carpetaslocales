@@ -26,6 +26,9 @@ for k in ['02','03','04','05','06','07','08','09','10']: add(whoosh(.8),B[k]-1.0
 e=np.clip(lp(np.abs(V),5)/0.06,0,1);ek=lp(e,3)[:,None]
 mid=np.stack([bp(M[:,0],1000,4000),bp(M[:,1],1000,4000)],1)
 Mm=(M-0.5*mid*ek)*(1-0.22*ek)
+tt=np.arange(N)/SR
+musenv=np.interp(tt,[0,14.0,16.5,197.5,199.5,213],[1,1,0.06,0.06,1.6,1.6])  # música fuerte solo al principio y al final
+Mm=Mm*musenv[:,None]
 ir_n=int(1.4*SR);ir=rng.standard_normal(ir_n)*np.exp(-np.arange(ir_n)/SR/.35);ir=lp(ir,5000);ir/=np.abs(ir).sum()**.5*10
 Vr=V+fftconvolve(V,ir)[:N]*.25
 st=Mm*0.62+np.stack([FX,FX],1)*0.35+np.stack([Vr,Vr],1)*0.95
