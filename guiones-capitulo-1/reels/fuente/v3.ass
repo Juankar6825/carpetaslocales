@@ -1,0 +1,50 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Title,Anton,112,&H00FFFFFF,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,1,0,1,6,0,8,40,40,170,1
+Style: Gold,Anton,124,&H0042B9F5,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,1,0,1,7,0,8,40,40,300,1
+Style: Cap,Anton,96,&H00FFFFFF,&H000000FF,&H00000000,&HA0000000,0,0,0,0,100,100,1,0,1,8,2,2,50,50,470,1
+Style: Brand,Oswald,40,&H008AE0FF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,6,0,1,3,0,2,40,40,120,1
+Style: Cta,Anton,92,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,1,0,1,6,0,5,40,40,0,1
+Style: CtaG,Anton,110,&H0042B9F5,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,1,0,1,6,0,5,40,40,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.00,0:00:51.42,Title,,0,0,0,,{\fad(150,200)}¿MODO VÍCTIMA
+Dialogue: 1,0:00:00.25,0:00:51.42,Gold,,0,0,0,,{\fad(150,200)\t(0,300,\fscx100\fscy100)}O MODO CREADOR?
+Dialogue: 1,0:00:00.00,0:00:51.42,Brand,,0,0,0,,EL GRAN MANIFESTADOR · CAPÍTULO 1
+Dialogue: 2,0:00:00.70,0:00:02.77,Cap,,0,0,0,,{\fad(60,60)\t(0,120,\fscx104\fscy104)\t(120,220,\fscx100\fscy100)}ESTÁS EN MODO VÍCTIMA CUANDO TE
+Dialogue: 2,0:00:02.77,0:00:04.37,Cap,,0,0,0,,{\fad(60,60)\t(0,120,\fscx104\fscy104)\t(120,220,\fscx100\fscy100)}QUEJAS EN VEZ DE ACTUAR.
+Dialogue: 2,0:00:04.37,0:00:05.58,Cap,,0,0,0,,{\fad(60,60)\t(0,120,\fscx104\fscy104)\t(120,220,\fscx100\fscy100)}CUANDO CREES QUE LAS
+Dialogue: 2,0:00:05.58,0:00:06.92,Cap,,0,0,0,,{\fad(60,60)\t(0,120,\fscx104\fscy104)\t(120,220,\fscx100\fscy100)}CIRCUNSTANCIAS MANDAN.
+Dialogue: 2,0:00:06.92,0:00:09.14,Cap,,0,0,0,,{\fad(60,60)\t(0,120,\fscx104\fscy104)\t(120,220,\fscx100\fscy100)}CUANDO ESPERAS A QUE ALGUIEN VENGA
+Dialogue: 2,0:00:09.14,0:00:09.85,Cap,,0,0,0,,{\fad(60,60)\t(0,120,\fscx104\fscy104)\t(120,220,\fscx100\fscy100)}A SALVARTE.
+Dialogue: 2,0:00:09.85,0:00:12.07,Cap,,0,0,0,,{\fad(60,60)\t(0,120,\fscx104\fscy104)\t(120,220,\fscx100\fscy100)}ESTÁS EN MODO CREADOR CUANDO TOMAS
+Dialogue: 2,0:00:12.07,0:00:14.09,Cap,,0,0,0,,{\fad(60,60)\t(0,120,\fscx104\fscy104)\t(120,220,\fscx100\fscy100)}DECISIONES SIN ESPERAR PERMISO.
+Dialogue: 2,0:00:14.09,0:00:15.64,Cap,,0,0,0,,{\fad(60,60)\t(0,120,\fscx104\fscy104)\t(120,220,\fscx100\fscy100)}CUANDO CADA PROBLEMA ES UNA
+Dialogue: 2,0:00:15.64,0:00:17.83,Cap,,0,0,0,,{\fad(60,60)\t(0,120,\fscx104\fscy104)\t(120,220,\fscx100\fscy100)}OPORTUNIDAD PARA DEMOSTRAR QUIÉN ERES.
+Dialogue: 2,0:00:17.83,0:00:19.88,Cap,,0,0,0,,{\fad(60,60)\t(0,120,\fscx104\fscy104)\t(120,220,\fscx100\fscy100)}CUANDO ACTÚAS, Y EL UNIVERSO
+Dialogue: 2,0:00:19.88,0:00:20.54,Cap,,0,0,0,,{\fad(60,60)\t(0,120,\fscx104\fscy104)\t(120,220,\fscx100\fscy100)}RESPONDE.
+Dialogue: 2,0:00:24.54,0:00:26.09,Cap,,0,0,0,,{\fad(60,60)\t(0,120,\fscx104\fscy104)\t(120,220,\fscx100\fscy100)}SI QUIERES SER UN GRAN
+Dialogue: 2,0:00:26.09,0:00:27.79,Cap,,0,0,0,,{\fad(60,60)\t(0,120,\fscx104\fscy104)\t(120,220,\fscx100\fscy100)}MANIFESTADOR, TIENES QUE
+Dialogue: 2,0:00:27.79,0:00:30.12,Cap,,0,0,0,,{\fad(60,60)\t(0,120,\fscx104\fscy104)\t(120,220,\fscx100\fscy100)}DESPEDIRTE DE TU VIEJA VERSIÓN DE
+Dialogue: 2,0:00:30.12,0:00:30.69,Cap,,0,0,0,,{\fad(60,60)\t(0,120,\fscx104\fscy104)\t(120,220,\fscx100\fscy100)}VÍCTIMA.
+Dialogue: 2,0:00:30.69,0:00:33.73,Cap,,0,0,0,,{\fad(60,60)\t(0,120,\fscx104\fscy104)\t(120,220,\fscx100\fscy100)}ESA QUE SIEMPRE TIENE UNA BUENA EXCUSA.
+Dialogue: 2,0:00:33.73,0:00:35.49,Cap,,0,0,0,,{\fad(60,60)\t(0,120,\fscx104\fscy104)\t(120,220,\fscx100\fscy100)}ESA QUE TE PROTEGE, SÍ, PERO
+Dialogue: 2,0:00:35.49,0:00:37.18,Cap,,0,0,0,,{\fad(60,60)\t(0,120,\fscx104\fscy104)\t(120,220,\fscx100\fscy100)}TAMBIÉN TE TIENE ENCERRADO.
+Dialogue: 2,0:00:37.18,0:00:39.17,Cap,,0,0,0,,{\fad(60,60)\t(0,120,\fscx104\fscy104)\t(120,220,\fscx100\fscy100)}SOLO DESDE TU PODER INTERNO PUEDES
+Dialogue: 2,0:00:39.17,0:00:40.87,Cap,,0,0,0,,{\fad(60,60)\t(0,120,\fscx104\fscy104)\t(120,220,\fscx100\fscy100)}ATRAER UNA REALIDAD PODEROSA.
+Dialogue: 2,0:00:40.87,0:00:43.12,Cap,,0,0,0,,{\fad(60,60)\t(0,120,\fscx104\fscy104)\t(120,220,\fscx100\fscy100)}ASÍ QUE HOY, ANTES DE DORMIR, HAZ
+Dialogue: 2,0:00:43.12,0:00:45.16,Cap,,0,0,0,,{\fad(60,60)\t(0,120,\fscx104\fscy104)\t(120,220,\fscx100\fscy100)}UNA SOLA COSA EN MODO CREADOR.
+Dialogue: 2,0:00:45.16,0:00:46.19,Cap,,0,0,0,,{\fad(60,60)\t(0,120,\fscx104\fscy104)\t(120,220,\fscx100\fscy100)}UNA.
+Dialogue: 2,0:00:46.19,0:00:47.95,Cap,,0,0,0,,{\fad(60,60)\t(0,120,\fscx104\fscy104)\t(120,220,\fscx100\fscy100)}LA QUE LLEVAS DÍAS EVITANDO.
+Dialogue: 2,0:00:47.95,0:00:48.86,Cap,,0,0,0,,{\fad(60,60)\t(0,120,\fscx104\fscy104)\t(120,220,\fscx100\fscy100)}HOY ELIGES.
+Dialogue: 2,0:00:51.42,0:00:54.92,Cta,,0,0,0,,{\an7\pos(0,0)\fad(250,0)\1c&H000000&\1a&H28&\bord0\p1}m 0 0 l 1080 0 1080 1920 0 1920{\p0}
+Dialogue: 3,0:00:51.42,0:00:54.92,Cta,,0,0,0,,{\pos(540,780)\fad(200,0)}MIRA EL VÍDEO COMPLETO
+Dialogue: 3,0:00:51.77,0:00:54.92,CtaG,,0,0,0,,{\pos(540,930)\fad(200,0)}ENLACE EN LA BIO
+Dialogue: 3,0:00:52.12,0:00:54.92,Cta,,0,0,0,,{\pos(540,1090)\fad(200,0)\fs64}CAPÍTULO 1 · 3 VÍDEOS

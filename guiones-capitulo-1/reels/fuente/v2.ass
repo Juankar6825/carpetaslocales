@@ -1,0 +1,42 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Title,Anton,112,&H00FFFFFF,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,1,0,1,6,0,8,40,40,170,1
+Style: Gold,Anton,124,&H0042B9F5,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,1,0,1,7,0,8,40,40,300,1
+Style: Cap,Anton,96,&H00FFFFFF,&H000000FF,&H00000000,&HA0000000,0,0,0,0,100,100,1,0,1,8,2,2,50,50,470,1
+Style: Brand,Oswald,40,&H008AE0FF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,6,0,1,3,0,2,40,40,120,1
+Style: Cta,Anton,92,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,1,0,1,6,0,5,40,40,0,1
+Style: CtaG,Anton,110,&H0042B9F5,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,1,0,1,6,0,5,40,40,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.00,0:00:38.50,Title,,0,0,0,,{\fad(150,200)}LO QUE DICES
+Dialogue: 1,0:00:00.25,0:00:38.50,Gold,,0,0,0,,{\fad(150,200)\t(0,300,\fscx100\fscy100)}≠ LO QUE HACES
+Dialogue: 1,0:00:00.00,0:00:38.50,Brand,,0,0,0,,EL GRAN MANIFESTADOR · CAPÍTULO 1
+Dialogue: 2,0:00:00.70,0:00:02.84,Cap,,0,0,0,,{\fad(60,60)\t(0,120,\fscx104\fscy104)\t(120,220,\fscx100\fscy100)}DICES QUE QUIERES MÁS DINERO.
+Dialogue: 2,0:00:02.84,0:00:04.70,Cap,,0,0,0,,{\fad(60,60)\t(0,120,\fscx104\fscy104)\t(120,220,\fscx100\fscy100)}Y TE PASAS LA TARDE CON GENTE QUE
+Dialogue: 2,0:00:04.70,0:00:06.67,Cap,,0,0,0,,{\fad(60,60)\t(0,120,\fscx104\fscy104)\t(120,220,\fscx100\fscy100)}SOLO HABLA DE LO MAL QUE ESTÁ TODO.
+Dialogue: 2,0:00:06.67,0:00:08.46,Cap,,0,0,0,,{\fad(60,60)\t(0,120,\fscx104\fscy104)\t(120,220,\fscx100\fscy100)}LO QUE ESCUCHAS CADA DÍA ACABA
+Dialogue: 2,0:00:08.46,0:00:09.65,Cap,,0,0,0,,{\fad(60,60)\t(0,120,\fscx104\fscy104)\t(120,220,\fscx100\fscy100)}SIENDO LO QUE CREES.
+Dialogue: 2,0:00:12.32,0:00:14.61,Cap,,0,0,0,,{\fad(60,60)\t(0,120,\fscx104\fscy104)\t(120,220,\fscx100\fscy100)}DICES QUE QUIERES AMOR DEL BUENO.
+Dialogue: 2,0:00:14.61,0:00:16.53,Cap,,0,0,0,,{\fad(60,60)\t(0,120,\fscx104\fscy104)\t(120,220,\fscx100\fscy100)}Y SIGUES CONTESTANDO A QUIEN YA
+Dialogue: 2,0:00:16.53,0:00:17.71,Cap,,0,0,0,,{\fad(60,60)\t(0,120,\fscx104\fscy104)\t(120,220,\fscx100\fscy100)}SABES CÓMO TERMINA.
+Dialogue: 2,0:00:17.71,0:00:19.78,Cap,,0,0,0,,{\fad(60,60)\t(0,120,\fscx104\fscy104)\t(120,220,\fscx100\fscy100)}CADA VEZ QUE CONTESTAS, LE DICES A
+Dialogue: 2,0:00:19.78,0:00:21.31,Cap,,0,0,0,,{\fad(60,60)\t(0,120,\fscx104\fscy104)\t(120,220,\fscx100\fscy100)}LA VIDA: "TRANQUILA, SIGO
+Dialogue: 2,0:00:21.31,0:00:23.20,Cap,,0,0,0,,{\fad(60,60)\t(0,120,\fscx104\fscy104)\t(120,220,\fscx100\fscy100)}DISPONIBLE PARA LO DE SIEMPRE".
+Dialogue: 2,0:00:25.70,0:00:27.59,Cap,,0,0,0,,{\fad(60,60)\t(0,120,\fscx104\fscy104)\t(120,220,\fscx100\fscy100)}DICES QUE QUIERES ÉXITO.
+Dialogue: 2,0:00:27.59,0:00:29.51,Cap,,0,0,0,,{\fad(60,60)\t(0,120,\fscx104\fscy104)\t(120,220,\fscx100\fscy100)}Y EL DÍA EMPIEZA GANÁNDOTE EL
+Dialogue: 2,0:00:29.51,0:00:30.70,Cap,,0,0,0,,{\fad(60,60)\t(0,120,\fscx104\fscy104)\t(120,220,\fscx100\fscy100)}BOTÓN DE POSPONER.
+Dialogue: 2,0:00:30.70,0:00:32.97,Cap,,0,0,0,,{\fad(60,60)\t(0,120,\fscx104\fscy104)\t(120,220,\fscx100\fscy100)}LA PRIMERA DECISIÓN DEL DÍA, Y YA
+Dialogue: 2,0:00:32.97,0:00:34.01,Cap,,0,0,0,,{\fad(60,60)\t(0,120,\fscx104\fscy104)\t(120,220,\fscx100\fscy100)}LA HAS PERDIDO.
+Dialogue: 2,0:00:34.01,0:00:35.60,Cap,,0,0,0,,{\fad(60,60)\t(0,120,\fscx104\fscy104)\t(120,220,\fscx100\fscy100)}NO ES POR FALTA DE GANAS.
+Dialogue: 2,0:00:35.60,0:00:37.30,Cap,,0,0,0,,{\fad(60,60)\t(0,120,\fscx104\fscy104)\t(120,220,\fscx100\fscy100)}ES POR FALTA DE PRUEBAS.
+Dialogue: 2,0:00:38.50,0:00:42.00,Cta,,0,0,0,,{\an7\pos(0,0)\fad(250,0)\1c&H000000&\1a&H28&\bord0\p1}m 0 0 l 1080 0 1080 1920 0 1920{\p0}
+Dialogue: 3,0:00:38.50,0:00:42.00,Cta,,0,0,0,,{\pos(540,780)\fad(200,0)}MIRA EL VÍDEO COMPLETO
+Dialogue: 3,0:00:38.85,0:00:42.00,CtaG,,0,0,0,,{\pos(540,930)\fad(200,0)}ENLACE EN LA BIO
+Dialogue: 3,0:00:39.20,0:00:42.00,Cta,,0,0,0,,{\pos(540,1090)\fad(200,0)\fs64}CAPÍTULO 1 · 3 VÍDEOS
