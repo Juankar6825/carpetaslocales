@@ -308,5 +308,407 @@
   "key": "PEQUEÑOS|NOES",
   "voice_end": 19.07,
   "tot": 21.47
+ },
+ "r6": {
+  "caps": [
+   [
+    0.35,
+    1.3310659999999999,
+    "—¿Qué tal?"
+   ],
+   [
+    1.3310659999999999,
+    1.3310659999999999,
+    "—Bien."
+   ],
+   [
+    1.3310659999999999,
+    2.11447,
+    "Y no lo estás."
+   ],
+   [
+    2.11447,
+    5.136086956521739,
+    "Lo dices tanto que ya te lo crees."
+   ],
+   [
+    5.136086956521739,
+    7.653269565217391,
+    "Pero tu cuerpo no: lo notas en el"
+   ],
+   [
+    7.653269565217391,
+    8.95,
+    "pecho cada noche."
+   ],
+   [
+    8.95,
+    9.99676,
+    "No necesitas estar bien."
+   ],
+   [
+    9.99676,
+    12.838695652173913,
+    "Necesitas dejar de mentirte."
+   ],
+   [
+    12.838695652173913,
+    13.9637,
+    "Sígueme."
+   ],
+   [
+    13.9637,
+    15.756849999999998,
+    "Mañana te cuento por qué te"
+   ],
+   [
+    15.756849999999998,
+    17.55,
+    "comparas con todo el mundo."
+   ]
+  ],
+  "hook": "—¿QUÉ TAL?|—BIEN.",
+  "twist": 8.95,
+  "follow": 12.838695652173913,
+  "key": "DEJA DE|MENTIRTE",
+  "teaser": "MAÑANA:|POR QUÉ TE COMPARAS",
+  "label": "VERDADES INCÓMODAS · 6/10",
+  "voice_end": 17.55,
+  "tot": 20.15
+ },
+ "r7": {
+  "caps": [
+   [
+    0.7051019999999999,
+    2.86553,
+    "La 1 de la madrugada."
+   ],
+   [
+    2.86553,
+    5.052345957446809,
+    "Y sigues deslizando vidas que"
+   ],
+   [
+    5.052345957446809,
+    6.40968,
+    "parecen perfectas."
+   ],
+   [
+    6.40968,
+    7.491289999999999,
+    "Viajes."
+   ],
+   [
+    7.491289999999999,
+    7.491289999999999,
+    "Parejas."
+   ],
+   [
+    7.491289999999999,
+    8.51887,
+    "Éxitos."
+   ],
+   [
+    8.51887,
+    11.441699999999999,
+    "Y tú, en la cama, sintiéndote poca cosa."
+   ],
+   [
+    11.441699999999999,
+    14.127944460358567,
+    "Comparas su escaparate con tu"
+   ],
+   [
+    14.127944460358567,
+    15.146864772908367,
+    "trastienda."
+   ],
+   [
+    15.146864772908367,
+    18.284000000000002,
+    "Y nadie enseña la trastienda."
+   ],
+   [
+    18.284000000000002,
+    18.284000000000002,
+    "Sígueme."
+   ],
+   [
+    18.284000000000002,
+    21.01258536585366,
+    "Mañana, la frase que más te está"
+   ],
+   [
+    21.01258536585366,
+    21.78,
+    "frenando."
+   ]
+  ],
+  "hook": "1:00 AM",
+  "twist": 11.441699999999999,
+  "follow": 18.284000000000002,
+  "key": "SU ESCAPARATE|TU TRASTIENDA",
+  "teaser": "MAÑANA:|LA FRASE QUE MÁS TE FRENA",
+  "label": "VERDADES INCÓMODAS · 7/10",
+  "voice_end": 21.950000000000003,
+  "tot": 24.55
+ },
+ "r8": {
+  "caps": [
+   [
+    0.35,
+    2.6457100000000002,
+    "Ya no tengo edad para eso."
+   ],
+   [
+    2.6457100000000002,
+    2.6457100000000002,
+    "Lo has dicho."
+   ],
+   [
+    2.6457100000000002,
+    5.173011960784313,
+    "Sobre aprender, cambiar de"
+   ],
+   [
+    5.173011960784313,
+    7.603109999999999,
+    "trabajo, empezar de cero."
+   ],
+   [
+    7.60311,
+    7.60311,
+    "Y no es la edad."
+   ],
+   [
+    7.60311,
+    10.519219330855018,
+    "Es el miedo, disfrazado de edad."
+   ],
+   [
+    10.519219330855018,
+    13.304767735800121,
+    "Dentro de 5 años vas a tener más"
+   ],
+   [
+    13.304767735800121,
+    14.2623,
+    "edad igual."
+   ],
+   [
+    14.2623,
+    15.994386486486487,
+    "La pregunta es si lo habrás"
+   ],
+   [
+    15.994386486486487,
+    16.635900000000003,
+    "intentado."
+   ],
+   [
+    16.635900000000003,
+    17.4407,
+    "Sígueme."
+   ],
+   [
+    17.4407,
+    20.03,
+    "Mañana, el sí que te está saliendo caro."
+   ]
+  ],
+  "hook": "«YA NO TENGO|EDAD»",
+  "twist": 7.60311,
+  "follow": 16.635900000000003,
+  "key": "NO ES LA EDAD|ES EL MIEDO",
+  "teaser": "MAÑANA:|EL SÍ QUE TE SALE CARO",
+  "label": "VERDADES INCÓMODAS · 8/10",
+  "voice_end": 20.03,
+  "tot": 22.63
+ },
+ "r9": {
+  "caps": [
+   [
+    0.35,
+    2.07746,
+    "Te piden un favor."
+   ],
+   [
+    2.07746,
+    2.07746,
+    "No puedes."
+   ],
+   [
+    2.07746,
+    3.1911300000000002,
+    "No quieres."
+   ],
+   [
+    3.1911300000000002,
+    4.3574399999999995,
+    "Y dices que sí."
+   ],
+   [
+    4.3574399999999995,
+    5.59136,
+    "Otra vez."
+   ],
+   [
+    5.59136,
+    6.618589999999999,
+    "Para no quedar mal."
+   ],
+   [
+    6.618589999999999,
+    7.80077,
+    "Para que no se enfaden."
+   ],
+   [
+    7.80077,
+    10.360012093023256,
+    "Y al final, quien se enfada"
+   ],
+   [
+    10.360012093023256,
+    11.8766,
+    "contigo eres tú."
+   ],
+   [
+    11.8766,
+    14.8287,
+    "Cada sí que no sientes es un no a ti."
+   ],
+   [
+    14.8287,
+    14.8287,
+    "Sígueme."
+   ],
+   [
+    14.8287,
+    17.887800000000002,
+    "Mañana, el último de esta serie."
+   ],
+   [
+    17.887800000000002,
+    19.1094,
+    "Y el más importante."
+   ]
+  ],
+  "hook": "OTRO «SÍ»|QUE NO QUERÍAS",
+  "twist": 11.8766,
+  "follow": 14.8287,
+  "key": "UN SÍ A ELLOS|UN NO A TI",
+  "teaser": "MAÑANA:|EL ÚLTIMO. EL MÁS IMPORTANTE",
+  "label": "VERDADES INCÓMODAS · 9/10",
+  "voice_end": 19.310000000000002,
+  "tot": 21.91
+ },
+ "r10": {
+  "caps": [
+   [
+    0.35,
+    1.9700699999999998,
+    "El domingo con nudo."
+   ],
+   [
+    1.9700699999999998,
+    3.40027,
+    "El mensaje borrado."
+   ],
+   [
+    3.40027,
+    5.05673,
+    "El \"mañana empiezo\"."
+   ],
+   [
+    5.05673,
+    6.496639999999999,
+    "El \"estoy bien\"."
+   ],
+   [
+    6.496639999999999,
+    8.29107,
+    "El \"ya no tengo edad\"."
+   ],
+   [
+    8.29107,
+    10.04079,
+    "Todo tiene algo en común."
+   ],
+   [
+    10.04079,
+    10.04079,
+    "Lo toleras."
+   ],
+   [
+    10.04079,
+    13.1258,
+    "Y lo que toleras, se repite."
+   ],
+   [
+    13.1258,
+    14.616455555555556,
+    "Por eso escribí El Gran"
+   ],
+   [
+    14.616455555555556,
+    15.459,
+    "Manifestador."
+   ],
+   [
+    15.459,
+    17.7298,
+    "El capítulo 1 está gratis en mi bio."
+   ],
+   [
+    17.7298,
+    18.6444,
+    "Sígueme."
+   ],
+   [
+    18.6444,
+    20.19,
+    "Esto acaba de empezar."
+   ]
+  ],
+  "hook": "5 HISTORIAS|1 CAUSA",
+  "twist": 8.29107,
+  "follow": 17.7298,
+  "key": "LO QUE TOLERAS|SE REPITE",
+  "teaser": "CAPÍTULO 1 GRATIS|ENLACE EN MI BIO",
+  "label": "VERDADES INCÓMODAS · 10/10",
+  "voice_end": 20.19,
+  "tot": 22.79,
+  "montage": [
+   [
+    "domingo",
+    -1,
+    2.07007
+   ],
+   [
+    "mensaje",
+    1.9700699999999998,
+    3.50027
+   ],
+   [
+    "calendario",
+    3.40027,
+    5.15673
+   ],
+   [
+    "estoybien",
+    5.05673,
+    6.596639999999999
+   ],
+   [
+    "edad",
+    6.496639999999999,
+    8.39107
+   ]
+  ],
+  "key2": {
+   "t": 13.1258,
+   "text": "CAPÍTULO 1|GRATIS EN MI BIO",
+   "img": "libro"
+  }
  }
 }

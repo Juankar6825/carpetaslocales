@@ -5,7 +5,7 @@ SR=44100;D=json.load(open('data.json'));rng=np.random.default_rng(5)
 lp=lambda x,f:sosfilt(butter(2,f,'low',fs=SR,output='sos'),x);hp=lambda x,f:sosfilt(butter(2,f,'high',fs=SR,output='sos'),x)
 bp=lambda x,a,b:sosfilt(butter(2,[a,b],'band',fs=SR,output='sos'),x)
 sr,mus=wavfile.read('musV2.wav');mus=mus.astype(float)/32768;mus/=np.max(np.abs(mus))
-for k,d in D.items():
+for k,d in [(k,D[k]) for k in (sys.argv[1:] or D)]:
     N=int(d['tot']*SR);tt=np.arange(N)/SR
     s,v=wavfile.read(f'voz/{k}.wav');v=v.astype(float)/32768;v=hp(v,90);v=np.tanh(v/np.max(np.abs(v))*1.6)/np.tanh(1.6)
     V=np.zeros(N);i=int(0.35*SR);V[i:i+len(v)]=v[:N-i]
