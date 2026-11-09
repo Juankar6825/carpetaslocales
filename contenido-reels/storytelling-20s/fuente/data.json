@@ -1,0 +1,312 @@
+{
+ "r1": {
+  "caps": [
+   [
+    0.35,
+    1.4350999999999998,
+    "Domingo, 22:00."
+   ],
+   [
+    1.4350999999999998,
+    4.34431279620853,
+    "Y aparece ese nudo en el estómago."
+   ],
+   [
+    4.344312796208531,
+    5.62336,
+    "Mañana es lunes."
+   ],
+   [
+    5.62336,
+    6.965599999999999,
+    "Otra vez."
+   ],
+   [
+    6.965599999999999,
+    8.11694,
+    "Te dices que es normal."
+   ],
+   [
+    8.11694,
+    9.716849999999999,
+    "Pero no lo es."
+   ],
+   [
+    9.716849999999999,
+    10.998199999999999,
+    "Es lo que has aceptado."
+   ],
+   [
+    10.998199999999999,
+    13.55568720379147,
+    "Y lo que aceptas, se repite."
+   ],
+   [
+    13.55568720379147,
+    15.96891785150079,
+    "Sígueme si quieres que sea tu"
+   ],
+   [
+    15.96891785150079,
+    17.55,
+    "último domingo así."
+   ]
+  ],
+  "hook": "DOMINGO, 22:00",
+  "twist": 9.716849999999999,
+  "follow": 13.55568720379147,
+  "key": "LO QUE ACEPTAS|SE REPITE",
+  "voice_end": 17.55,
+  "tot": 19.95
+ },
+ "r2": {
+  "caps": [
+   [
+    0.560726,
+    3.51376,
+    "Lo escribes, lo lees 3 veces y lo borras."
+   ],
+   [
+    3.51376,
+    4.80195,
+    "Otra vez."
+   ],
+   [
+    4.80195,
+    7.050905944510035,
+    "Ese mensaje que llevas semanas"
+   ],
+   [
+    7.050905944510035,
+    7.950488322314049,
+    "guardándote."
+   ],
+   [
+    7.950488322314049,
+    9.039069999999999,
+    "Por no molestar."
+   ],
+   [
+    9.039069999999999,
+    10.365599999999999,
+    "Por miedo a perder."
+   ],
+   [
+    10.365599999999999,
+    12.9965,
+    "Y mientras, te vas perdiendo tú."
+   ],
+   [
+    12.9965,
+    16.107514893617022,
+    "Cada mensaje que borras es algo"
+   ],
+   [
+    16.107514893617022,
+    17.7132,
+    "tuyo que callas."
+   ],
+   [
+    17.7132,
+    19.790000000000003,
+    "Sígueme si ya es hora de enviarlo."
+   ]
+  ],
+  "hook": "LO ESCRIBES…|Y LO BORRAS",
+  "twist": 12.9965,
+  "follow": 17.7132,
+  "key": "LO QUE BORRAS|LO CALLAS",
+  "voice_end": 19.790000000000003,
+  "tot": 22.19
+ },
+ "r3": {
+  "caps": [
+   [
+    0.35,
+    3.23878,
+    "\"Mañana empiezo.\" Lo dijiste en enero."
+   ],
+   [
+    3.23878,
+    4.36961,
+    "Y en septiembre."
+   ],
+   [
+    4.36961,
+    5.33644,
+    "Y anoche."
+   ],
+   [
+    5.33644,
+    7.378979999999999,
+    "Pero mañana nunca llega."
+   ],
+   [
+    7.378979999999999,
+    9.40746,
+    "El cambio no empieza el lunes."
+   ],
+   [
+    9.40746,
+    11.96822,
+    "Empieza en los próximos 5 minutos,"
+   ],
+   [
+    11.96822,
+    13.2486,
+    "con algo pequeño."
+   ],
+   [
+    13.2486,
+    13.2486,
+    "Hoy."
+   ],
+   [
+    13.2486,
+    16.03,
+    "Sígueme si hoy, por fin, empiezas."
+   ]
+  ],
+  "hook": "«MAÑANA|EMPIEZO»",
+  "twist": 7.378979999999999,
+  "follow": 13.2486,
+  "key": "EMPIEZA|HOY",
+  "voice_end": 16.03,
+  "tot": 18.43
+ },
+ "r4": {
+  "caps": [
+   [
+    0.35,
+    1.5500000000000003,
+    "Día 25 del mes."
+   ],
+   [
+    1.5500000000000003,
+    4.254390243902439,
+    "Abres la app del banco con un ojo"
+   ],
+   [
+    4.254390243902439,
+    4.91,
+    "cerrado."
+   ],
+   [
+    4.909999999999999,
+    6.59,
+    "Y otra vez ese vacío."
+   ],
+   [
+    6.59,
+    8.711546341463416,
+    "Trabajas, te esfuerzas, y el"
+   ],
+   [
+    8.711546341463416,
+    9.69655,
+    "dinero se va."
+   ],
+   [
+    9.69655,
+    10.997,
+    "No es mala suerte."
+   ],
+   [
+    10.997,
+    12.3239,
+    "Es lo que no miras."
+   ],
+   [
+    12.3239,
+    15.398861538461537,
+    "Y lo que no miras, no lo puedes"
+   ],
+   [
+    15.398861538461537,
+    16.1924,
+    "cambiar."
+   ],
+   [
+    16.1924,
+    18.19,
+    "Sígueme y empieza a mirar."
+   ]
+  ],
+  "hook": "DÍA 25|DEL MES",
+  "twist": 9.69655,
+  "follow": 16.1924,
+  "key": "LO QUE NO MIRAS|NO CAMBIA",
+  "voice_end": 18.19,
+  "tot": 20.59
+ },
+ "r5": {
+  "caps": [
+   [
+    0.35,
+    2.596002325581395,
+    "Tu móvil te enseña una foto de"
+   ],
+   [
+    2.596002325581395,
+    3.56927,
+    "hace 10 años."
+   ],
+   [
+    3.56927,
+    5.18215,
+    "Y no te reconoces."
+   ],
+   [
+    5.18215,
+    6.4356,
+    "Sonreías."
+   ],
+   [
+    6.4356,
+    6.4356,
+    "Tenías ganas."
+   ],
+   [
+    6.4356,
+    10.0746,
+    "¿En qué momento te conformaste?"
+   ],
+   [
+    10.0746,
+    10.0746,
+    "No fue un día."
+   ],
+   [
+    10.0746,
+    12.872802857142856,
+    "Fueron mil síes a lo que no"
+   ],
+   [
+    12.872802857142856,
+    13.7019,
+    "querías."
+   ],
+   [
+    13.7019,
+    16.6841,
+    "Y se recupera igual: con pequeños noes."
+   ],
+   [
+    16.6841,
+    18.508611764705883,
+    "Sígueme y vuelve a ser esa"
+   ],
+   [
+    18.508611764705883,
+    19.07,
+    "persona."
+   ]
+  ],
+  "hook": "HACE|10 AÑOS…",
+  "twist": 10.0746,
+  "follow": 16.6841,
+  "key": "PEQUEÑOS|NOES",
+  "voice_end": 19.07,
+  "tot": 21.47
+ }
+}
