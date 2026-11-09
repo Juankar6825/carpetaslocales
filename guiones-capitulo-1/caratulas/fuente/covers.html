@@ -1,0 +1,45 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:Anton;src:url(../trailer/node_modules/@fontsource/anton/files/anton-latin-400-normal.woff2)}
+@font-face{font-family:Cinzel;font-weight:900;src:url(../trailer/node_modules/@fontsource/cinzel/files/cinzel-latin-900-normal.woff2)}
+@font-face{font-family:Oswald;font-weight:500;src:url(../trailer/node_modules/@fontsource/oswald/files/oswald-latin-500-normal.woff2)}
+html,body{margin:0;background:#000}</style></head><body><canvas id="c"></canvas><script>
+const c=document.getElementById('c'),g=c.getContext('2d'),GOLD='#f5b942',GOLD2='#ffdf8a';
+const IMG={};const load=n=>new Promise(r=>{const i=new Image();i.onload=()=>{IMG[n]=i;r()};i.src=n+'.png'});
+function T(s,x,y,o){let size=o.size;g.save();g.font=`${o.w||''} ${size}px ${o.f||'Anton'}`;if(o.sp)g.letterSpacing=o.sp+'px';const mw=o.maxW||9999,m=g.measureText(s).width;if(m>mw){size*=mw/m;g.font=`${o.w||''} ${size}px ${o.f||'Anton'}`}
+ g.textAlign=o.align||'left';g.textBaseline='middle';g.translate(x,y);if(o.rot)g.rotate(o.rot);
+ let fill=o.color||'#fff';if(o.gold){const gr=g.createLinearGradient(0,-size/2,0,size/2);gr.addColorStop(0,'#fff3c4');gr.addColorStop(.5,GOLD2);gr.addColorStop(.56,GOLD);gr.addColorStop(1,'#b8741a');fill=gr}
+ if(o.stroke){g.lineJoin='round';g.lineWidth=o.stroke;g.strokeStyle='#000';g.strokeText(s,0,0)}
+ if(o.glow){g.shadowColor=o.glowC||GOLD;g.shadowBlur=o.glow}g.fillStyle=fill;g.fillText(s,0,0);g.restore();return size}
+function cover(bg,W,H,o){g.drawImage(IMG[bg],...fit(IMG[bg],W,H));
+ let gr=g.createLinearGradient(0,0,W,0);gr.addColorStop(0,'rgba(0,0,0,.92)');gr.addColorStop(o.v?0.0:.5,'rgba(0,0,0,.55)');gr.addColorStop(1,'rgba(0,0,0,.15)');if(!o.v){g.fillStyle=gr;g.fillRect(0,0,W,H)}
+ else{gr=g.createLinearGradient(0,0,0,H);gr.addColorStop(0,'rgba(0,0,0,.25)');gr.addColorStop(.45,'rgba(0,0,0,.75)');gr.addColorStop(1,'rgba(0,0,0,.95)');g.fillStyle=gr;g.fillRect(0,0,W,H)}
+ const v=g.createRadialGradient(W/2,H/2,Math.min(W,H)*.4,W/2,H/2,Math.max(W,H)*.75);v.addColorStop(0,'rgba(0,0,0,0)');v.addColorStop(1,'rgba(0,0,0,.7)');g.fillStyle=v;g.fillRect(0,0,W,H)}
+function fit(im,W,H){const s=Math.max(W/im.width,H/im.height),w=im.width*s,h=im.height*s;return[0,0,im.width,im.height,(W-w)/2,(H-h)/2,w,h]}
+function neox(x,y,h,fade){const im=IMG.personaje,w=h*im.width/im.height;const o=document.createElement('canvas');o.width=w+120;o.height=h+120;const q=o.getContext('2d');
+ q.shadowColor='rgba(245,185,66,.55)';q.shadowBlur=60;q.drawImage(im,60,60,w,h);
+ if(fade){q.globalCompositeOperation='destination-out';const gr=q.createLinearGradient(0,60+h*(1-fade),0,60+h);gr.addColorStop(0,'rgba(0,0,0,0)');gr.addColorStop(1,'rgba(0,0,0,1)');q.fillStyle=gr;q.fillRect(0,0,o.width,o.height)}
+ g.drawImage(o,x-w-60,y-h-60)}
+function badge(s,x,y,size,align){g.save();g.font=`500 ${size}px Oswald`;g.letterSpacing=(size*.18)+'px';const w=g.measureText(s).width+size*1.4,h=size*1.7;const x0=align==='center'?x-w/2:x;
+ g.fillStyle=GOLD;g.beginPath();g.roundRect(x0,y-h/2,w,h,h/2);g.fill();g.fillStyle='#1a0d03';g.textBaseline='middle';g.fillText(s,x0+size*.7,y+2);g.restore()}
+const SP=[
+ {id:'video1',bg:'tablero',l1:'MANIFIESTAS LO QUE',big:'TOLERAS',n:1,red:false},
+ {id:'video2',bg:'puertas',l1:'NO ES PEDIR.',big:'ES DEMOSTRAR',n:2},
+ {id:'video3',bg:'roto',l1:'¿VÍCTIMA',big:'O CREADOR?',n:3}];
+window.draw=(i,vert)=>{const s=SP[i];const W=vert?1080:1920,H=vert?1920:1080;c.width=W;c.height=H;g.clearRect(0,0,W,H);cover(s.bg,W,H,{v:vert});
+ if(!vert){neox(1920+40,1080,1080);
+  T('EL GRAN MANIFESTADOR',90,110,{f:'Cinzel',w:900,size:54,gold:true,sp:6,glow:20});
+  badge(`CAPÍTULO 1 · VÍDEO ${s.n} DE 3`,90,215,36);
+  T(s.l1,90,420,{size:130,stroke:14,maxW:1150});
+  T(s.big,80,640,{size:290,gold:true,stroke:16,glow:60,maxW:1200});
+  g.fillStyle=GOLD;g.fillRect(90,830,260,10);
+  T('CON NEOX',90,900,{f:'Oswald',w:500,size:46,sp:12,color:'#f1e2bd'});
+ }else{neox(1080+150,1230,900,.28);
+  T('EL GRAN MANIFESTADOR',540,140,{f:'Cinzel',w:900,size:62,gold:true,sp:4,glow:20,align:'center',maxW:960});
+  badge(`CAPÍTULO 1 · VÍDEO ${s.n} DE 3`,540,250,36,'center');
+  T(s.l1,540,1290,{size:120,stroke:14,align:'center',maxW:980});
+  T(s.big,540,1470,{size:230,gold:true,stroke:16,glow:60,align:'center',maxW:1000});
+  g.fillStyle=GOLD;g.fillRect(410,1610,260,10);
+  T('CON NEOX',540,1680,{f:'Oswald',w:500,size:48,sp:12,color:'#f1e2bd',align:'center'});}
+};
+window.ready=Promise.all([...['tablero','puertas','roto','personaje'].map(load),...['400 10px Anton','900 10px Cinzel','500 10px Oswald'].map(f=>document.fonts.load(f))]);
+</script></body></html>
