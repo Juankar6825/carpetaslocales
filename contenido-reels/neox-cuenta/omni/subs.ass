@@ -1,0 +1,21 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Anton,58,&H00FFFFFF,&H0042B9F5,&H00000000,&H00000000,0,0,0,0,100,100,1,0,1,6,0,2,40,40,250,1
+Style: Lab,Oswald,24,&H008AE0FF,&H000000FF,&H00000000,&H99000000,0,0,0,0,100,100,4,0,3,10,0,8,40,40,150,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:15.00,Lab,,0,0,0,,VERDADES INCÓMODAS · 1
+Dialogue: 1,0:00:00.66,0:00:01.96,Cap,,0,0,0,,{\fad(60,60)}{\k9}SI {\k9}EL {\k38}DOMINGO {\k12}POR {\k11}LA {\k34}NOCHE
+Dialogue: 1,0:00:01.96,0:00:03.47,Cap,,0,0,0,,{\fad(60,60)}{\k12}SE {\k8}TE {\k39}ENCOGE {\k10}EL {\k46}ESTÓMAGO,
+Dialogue: 1,0:00:03.90,0:00:04.63,Cap,,0,0,0,,{\fad(60,60)}{\k38}SÍGUEME.
+Dialogue: 1,0:00:05.14,0:00:06.80,Cap,,0,0,0,,{\fad(60,60)}{\k22}AQUÍ {\k41}HABLAMOS {\k13}DE {\k63}ESO {\k20}SIN
+Dialogue: 1,0:00:06.80,0:00:07.63,Cap,,0,0,0,,{\fad(60,60)}{\k48}FILTROS.
+Dialogue: 1,0:00:08.16,0:00:10.18,Cap,,0,0,0,,{\fad(60,60)}{\k24}ESE {\k59}NUDO {\k14}NO {\k13}ES {\k40}NORMAL,
+Dialogue: 1,0:00:10.18,0:00:11.30,Cap,,0,0,0,,{\fad(60,60)}{\k25}AUNQUE {\k9}TE {\k26}HAYAN {\k31}DICHO {\k16}QUE
+Dialogue: 1,0:00:11.30,0:00:12.65,Cap,,0,0,0,,{\fad(60,60)}{\k19}TODO {\k11}EL {\k24}MUNDO {\k14}LO {\k30}TIENE.
