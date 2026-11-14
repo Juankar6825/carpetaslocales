@@ -1,0 +1,78 @@
+@font-face{font-family:'Garamond';src:url('FM/eb-garamond/files/eb-garamond-latin-400-normal.woff2');font-weight:400}
+@font-face{font-family:'Garamond';src:url('FM/eb-garamond/files/eb-garamond-latin-400-italic.woff2');font-weight:400;font-style:italic}
+@font-face{font-family:'Garamond';src:url('FM/eb-garamond/files/eb-garamond-latin-600-normal.woff2');font-weight:600}
+@font-face{font-family:'Garamond';src:url('FM/eb-garamond/files/eb-garamond-latin-600-italic.woff2');font-weight:600;font-style:italic}
+@font-face{font-family:'Cinzel';src:url('FM/cinzel/files/cinzel-latin-400-normal.woff2');font-weight:400}
+@font-face{font-family:'Cinzel';src:url('FM/cinzel/files/cinzel-latin-700-normal.woff2');font-weight:700}
+:root{--gold:#a8741c;--gold2:#d9a441;--ink:#2a221b;--cream:#fbf6ec;--dark:#17120d}
+@page{size:148mm 210mm;margin:19mm 16mm 18mm 16mm;background:var(--cream);
+  @top-center{content:"EL GRAN MANIFESTADOR";font-family:'Cinzel';font-size:6.5pt;letter-spacing:2pt;color:#a58c6a}
+  @bottom-center{content:counter(page);font-family:'Garamond';font-size:9pt;color:var(--gold)}}
+@page full{margin:0;@top-center{content:none}@bottom-center{content:none}}
+html{background:var(--cream)}
+body{margin:0;font-family:'Garamond',serif;font-size:10.6pt;line-height:1.45;color:var(--ink);hyphens:auto;-webkit-hyphens:auto}
+p{margin:0 0 6pt;text-align:justify;orphans:3;widows:3}
+h1,h2,h3{font-weight:600;color:var(--ink);break-after:avoid}
+h2{font-size:19pt;line-height:1.12;margin:2pt 0 6pt;hyphens:none}
+h3{font-size:12pt;margin:11pt 0 3pt;color:#3a2c1c}
+.kicker{font-family:'Cinzel';font-size:7.5pt;letter-spacing:1.6pt;color:var(--gold);margin-bottom:5pt}
+.sub{font-style:italic;color:var(--gold);font-size:12pt;line-height:1.3;margin-bottom:8pt}
+blockquote{margin:12pt 4mm;padding:8pt 10pt;border-top:1px solid var(--gold2);border-bottom:1px solid var(--gold2);text-align:center;font-style:italic;font-size:12.5pt;line-height:1.3;color:#5a4123;break-inside:avoid}
+blockquote.final{margin-top:16pt;font-size:13.5pt}
+/* portada */
+.cover{page:full;height:210mm;position:relative;background:var(--dark);color:#fff;break-after:page;overflow:hidden}
+.cimg{position:absolute;inset:0;background:url('img/orig-000.jpg') center 30%/cover;filter:brightness(.62)}
+.cover::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,7,4,.75) 0%,rgba(10,7,4,.1) 40%,rgba(10,7,4,.2) 60%,rgba(10,7,4,.92) 100%)}
+.ctext{position:absolute;inset:0;z-index:2;display:flex;flex-direction:column;align-items:center;text-align:center;padding:20mm 12mm}
+.ck{font-family:'Cinzel';font-size:7pt;letter-spacing:2pt;color:var(--gold2)}
+.cover h1{font-family:'Cinzel';font-weight:700;color:#f6d58e;font-size:31pt;line-height:1.08;margin:8mm 0 4mm;letter-spacing:1pt;text-shadow:0 2px 12px rgba(0,0,0,.6)}
+.cs{font-style:italic;font-size:11.5pt;color:#f3e7d0}
+.cn{margin-top:auto;font-family:'Cinzel';font-size:9pt;letter-spacing:3pt;color:#f6d58e;border-top:1px solid #d9a441;border-bottom:1px solid #d9a441;padding:5pt 12pt}
+/* páginas de texto inicial */
+.front{break-before:page}
+.neoxbig{width:34mm;height:34mm;object-fit:cover;object-position:50% 18%;border-radius:50%;border:2px solid var(--gold2);float:right;margin:0 0 4mm 4mm}
+.areas{display:grid;grid-template-columns:1fr 1fr;gap:3mm;margin:6pt 0 8pt}
+.area{border:1px solid #e1cfa8;background:#fffaf0;padding:6pt 7pt;border-radius:3px}
+.area b{display:block;font-family:'Cinzel';font-size:8pt;letter-spacing:1pt;color:var(--gold);margin-bottom:2pt}
+.area span{font-size:9.5pt;line-height:1.3;display:block}
+.toc a{color:var(--ink);text-decoration:none}
+.tocm{font-weight:600;font-size:11pt;margin:7pt 0 1pt}
+.tocl{font-weight:600;font-size:11pt;margin:7pt 0}
+.toc ol{margin:0 0 0 5mm;padding:0;font-size:9.4pt;line-height:1.35;color:#4a3b2b}
+/* apertura de módulo */
+.modopen{page:full;height:210mm;position:relative;background:var(--dark);break-before:page;overflow:hidden}
+.mimg{position:absolute;inset:0;background-position:center;background-size:cover;filter:brightness(.7)}
+.modopen::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,7,4,.1) 35%,rgba(10,7,4,.95) 88%)}
+.mtext{position:absolute;left:12mm;right:12mm;bottom:20mm;z-index:2;text-align:center}
+.mnum{font-family:'Cinzel';font-size:9pt;letter-spacing:3pt;color:var(--gold2);margin-bottom:5mm}
+.modopen h1{font-family:'Cinzel';font-weight:700;color:#f6d58e;font-size:23pt;line-height:1.15;margin:0;text-shadow:0 2px 10px rgba(0,0,0,.7)}
+.modintro{break-before:page}
+.ruta{list-style:none;margin:4pt 0;padding:0}
+.ruta li{display:flex;gap:8pt;padding:4pt 0;border-bottom:1px solid #eadcc0;font-size:10.4pt;line-height:1.3}
+.ruta li span{font-family:'Cinzel';color:var(--gold);min-width:16pt}
+/* lección */
+.lesson,.cierre{break-before:page}
+.limg{width:100%;height:42mm;object-fit:cover;border-radius:2px;margin-bottom:8pt}
+.neox{break-inside:avoid;margin:12pt 0;border-radius:4px}
+.neox.vivio{background:var(--dark);color:#efe3cc;padding:9pt 11pt 6pt;box-shadow:inset 0 0 0 1px #6b4f22}
+.neox.vivio p{color:#efe3cc;font-size:10.3pt}
+.nh{display:flex;align-items:center;gap:7pt;margin-bottom:6pt}
+.nh img{width:24pt;height:24pt;border-radius:50%;object-fit:cover;object-position:50% 18%;border:1px solid var(--gold2)}
+.nh b{display:block;font-family:'Cinzel';font-size:8.5pt;letter-spacing:1.5pt;color:#f0c46a;font-weight:700}
+.nh span{display:block;font-size:8.5pt;font-style:italic;color:#c9b38d}
+.neox.voz{border-left:3px solid var(--gold2);background:#f4ead6;padding:7pt 10pt 4pt}
+.nh2{font-family:'Cinzel';font-size:7.5pt;letter-spacing:1.5pt;color:var(--gold);margin-bottom:3pt}
+.neox.voz p{font-style:italic}
+.cuaderno{break-inside:avoid;margin:12pt 0 0;padding:8pt 10pt;border:1px solid var(--gold2);border-radius:3px;background:#fffaf0}
+.ch{font-family:'Cinzel';font-size:8pt;letter-spacing:1.5pt;color:var(--gold);margin-bottom:3pt}
+.linea{font-size:9.5pt;color:#6b5a45;margin-top:9pt;border-bottom:1px solid #cdb68c;padding-bottom:2pt}
+.plan{list-style:none;padding:0;margin:4pt 0}
+.plan li{padding:4pt 0;border-bottom:1px solid #eadcc0;font-size:10.2pt;line-height:1.3;display:flex;gap:8pt}
+.plan li span{font-family:'Cinzel';font-size:8pt;color:var(--gold);min-width:34pt;padding-top:2pt}
+.anx h3{font-family:'Cinzel';font-size:9.5pt;letter-spacing:1pt;color:var(--gold);margin-top:10pt}
+.anx ul{margin:0;padding-left:4mm;font-size:10pt}
+.anx li span{display:block;font-size:8.5pt;color:#8a7558;font-style:italic}
+.anx li.vacio{font-style:italic;color:#8a7558}
+.fin{page:full;height:210mm;background:var(--dark);break-before:page;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5mm}
+.fin div{font-family:'Cinzel';font-weight:700;font-size:18pt;color:#f6d58e;letter-spacing:1pt}
+.fin span{font-family:'Cinzel';font-size:7pt;letter-spacing:1.5pt;color:#c9b38d}
