@@ -1,0 +1,176 @@
+<title>El Gran Manifestador</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+/* Lector de una columna para móvil: portada + índice, y una lección por pantalla con navegación anterior/siguiente */
+:root{
+  --bg:#f7f2e9; --paper:#fffdf8; --fg:#2b241c; --muted:#6f6455; --line:#e3d6bf;
+  --gold:#9a6a12; --gold-soft:#f1e3c4; --neox-bg:#1c1610; --neox-fg:#f1e6d2; --neox-gold:#e9bd62;
+  --font:Arial,"Helvetica Neue",Helvetica,sans-serif; --size:18px;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#14110d; --paper:#1b1712; --fg:#ece3d4; --muted:#a8998a; --line:#3a3127;
+  --gold:#e0b25a; --gold-soft:#2c2418; --neox-bg:#0c0a07; --neox-fg:#efe4d1; --neox-gold:#f0c46a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#14110d; --paper:#1b1712; --fg:#ece3d4; --muted:#a8998a; --line:#3a3127;
+  --gold:#e0b25a; --gold-soft:#2c2418; --neox-bg:#0c0a07; --neox-fg:#efe4d1; --neox-gold:#f0c46a; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--font);font-size:var(--size);line-height:1.6;margin:0;-webkit-text-size-adjust:100%}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--paper)}
+button{font-family:var(--font);cursor:pointer}
+button:focus-visible,a:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.wrap{max-width:40rem;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+/* barra superior */
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--paper);border-bottom:1px solid var(--line)}
+.bar .wrap{display:flex;align-items:center;gap:8px;padding-block:8px}
+.bar .t{flex:1;min-width:0;font-size:13px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;letter-spacing:.02em}
+.btn{background:transparent;border:1px solid var(--line);color:var(--fg);border-radius:8px;padding:7px 11px;font-size:14px;line-height:1}
+.btn.solid{background:var(--gold);border-color:var(--gold);color:var(--paper);font-weight:700}
+.prog{height:3px;background:var(--line)}.prog i{display:block;height:100%;background:var(--gold);width:0}
+/* portada */
+.cover{position:relative;background:#120e09 center/cover no-repeat;color:#fff;min-height:58vh;display:flex;align-items:flex-end}
+.cover::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,7,4,.15),rgba(10,7,4,.92))}
+.cover .wrap{position:relative;z-index:1;padding-block:28px;width:100%}
+.cover small{font-size:12px;letter-spacing:.18em;color:#f0c46a;text-transform:uppercase}
+.cover h1{font-size:2.3rem;line-height:1.05;margin:.3em 0 .25em;color:#f6d58e;text-wrap:balance;letter-spacing:.02em}
+.cover p{margin:0 0 1em;color:#f1e6d2;font-size:16px}
+.home{padding-block:20px 48px}
+.sect{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin:26px 0 10px;font-weight:700}
+.links{display:grid;gap:8px}
+.link{display:flex;justify-content:space-between;align-items:center;gap:10px;width:100%;text-align:left;background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:13px 14px;color:var(--fg);font-size:16px}
+.link span{color:var(--muted);font-size:13px;white-space:nowrap;flex-shrink:0}
+.mod{background:var(--paper);border:1px solid var(--line);border-radius:12px;overflow:hidden;margin-bottom:12px}
+.mod>button{display:block;width:100%;border:0;padding:0;background:transparent;color:inherit;text-align:left}
+.mod .img{height:110px;background:#120e09 center/cover}
+.mod .mt{padding:12px 14px}
+.mod .mt small{display:block;font-size:12px;letter-spacing:.14em;color:var(--gold);font-weight:700}
+.mod .mt b{display:block;font-size:18px;line-height:1.25;margin-top:2px}
+.mod ol{list-style:none;margin:0;padding:0 14px 10px;counter-reset:l}
+.mod ol button{display:flex;gap:10px;width:100%;text-align:left;background:transparent;border:0;border-top:1px solid var(--line);padding:10px 0;color:var(--fg);font-size:15px;line-height:1.35}
+.mod ol button em{font-style:normal;color:var(--gold);font-weight:700;min-width:1.6em;font-variant-numeric:tabular-nums}
+.mod ol button.neoxdot::after{content:"NEOX";margin-left:auto;align-self:center;font-size:10px;letter-spacing:.12em;font-weight:700;color:var(--gold);border:1px solid var(--gold);border-radius:20px;padding:2px 6px}
+/* lectura */
+.read{padding-block:22px 30px}
+.kick{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);font-weight:700}
+.read h1{font-size:1.65rem;line-height:1.2;margin:.35em 0 .3em;text-wrap:balance}
+.sub{color:var(--gold);font-size:1.05em;line-height:1.4;margin:0 0 1.1em}
+.read h2{font-size:1.15rem;line-height:1.3;margin:1.5em 0 .4em}
+.read p{margin:0 0 1em}
+.hero{height:170px;border-radius:12px;background:#120e09 center/cover;margin-bottom:18px}
+blockquote{margin:1.4em 0;padding:14px 16px;border-top:2px solid var(--gold);border-bottom:2px solid var(--gold);text-align:center;font-weight:700;font-size:1.08em;line-height:1.4}
+.vivio{background:var(--neox-bg);color:var(--neox-fg);border-radius:14px;padding:16px;margin:1.6em 0}
+.vivio .nh{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.vivio img{width:44px;height:44px;border-radius:50%;border:2px solid var(--neox-gold);object-fit:cover}
+.vivio .nh b{display:block;color:var(--neox-gold);font-size:13px;letter-spacing:.14em}
+.vivio .nh span{display:block;font-size:13px;color:#cdbb9a}
+.vivio p{margin:0 0 .85em}.vivio p:last-child{margin:0}
+.voz{background:var(--gold-soft);border-radius:12px;padding:14px 16px;margin:1.6em 0}
+.voz b{display:block;font-size:12px;letter-spacing:.14em;color:var(--gold);margin-bottom:6px}
+.voz p{margin:0 0 .6em;font-style:italic}.voz p:last-child{margin:0}
+.cuad{border:1.5px solid var(--gold);border-radius:12px;padding:14px 16px;margin:1.6em 0 0;background:var(--paper)}
+.cuad b{display:block;font-size:12px;letter-spacing:.14em;color:var(--gold);margin-bottom:6px}
+.cuad p{margin:0 0 .6em}
+.plan{list-style:none;padding:0;margin:.5em 0 1em}
+.plan li{border-bottom:1px solid var(--line);padding:9px 0;line-height:1.4}
+.ruta{padding-left:1.4em;margin:.5em 0 1em}.ruta li{margin:.35em 0;line-height:1.4}
+.areas{display:grid;gap:10px;margin:1em 0}
+.area{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:12px 14px;line-height:1.45}
+.area b{display:block;color:var(--gold);font-size:14px;letter-spacing:.06em}
+.anx h2{color:var(--gold)}
+.anx li{margin:.4em 0;line-height:1.4}.anx li small{display:block;color:var(--muted);font-size:13px}
+.nav{display:flex;gap:10px;padding-block:6px 40px}
+.nav button{flex:1;min-width:0;text-align:left;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:12px;color:var(--fg);font-size:14px;line-height:1.3}
+.nav button small{display:block;color:var(--gold);font-size:11px;letter-spacing:.14em;font-weight:700;margin-bottom:3px}
+.nav button.next{text-align:right}
+.nav button[disabled]{visibility:hidden}
+@media (prefers-reduced-motion:no-preference){.read{animation:in .25s ease-out}@keyframes in{from{opacity:.4;transform:translateY(6px)}to{opacity:1;transform:none}}}
+</style>
+<div id="app"></div>
+<script>
+/*__BOOK__*/
+const $=s=>document.querySelector(s);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const store={get(k){try{return localStorage.getItem(k)}catch(e){return null}},set(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
+// orden de lectura
+const PAGES=[];
+BOOK.front.forEach(f=>PAGES.push({id:f.id,kind:'front',data:f,label:f.title}));
+BOOK.modules.forEach(m=>{
+  PAGES.push({id:'m'+m.n,kind:'modintro',data:m,label:'Módulo '+(+m.n)+' · '+cap(m.title)});
+  m.lessons.forEach(l=>PAGES.push({id:'m'+m.n+'-l'+l.n,kind:'lesson',data:l,mod:m,label:l.title}));
+  if(m.cierre)PAGES.push({id:'m'+m.n+'-cierre',kind:'cierre',data:m.cierre,mod:m,label:'Cierre del módulo '+(+m.n)});
+});
+BOOK.back.forEach(f=>PAGES.push({id:f.id,kind:f.id==='anexo'?'anexo':'front',data:f,label:f.title}));
+function cap(s){return s.charAt(0)+s.slice(1).toLowerCase()}
+let size=+(store.get('egm-size')||18);
+function applySize(){document.documentElement.style.setProperty('--size',size+'px')}
+applySize();
+function body(items){return items.map(it=>{
+  const [t]=it;
+  if(t==='p')return '<p>'+esc(it[1])+'</p>';
+  if(t==='h')return '<h2>'+esc(it[1])+'</h2>';
+  if(t==='q')return '<blockquote>«'+esc(it[1])+'»</blockquote>';
+  if(t==='vivio')return '<aside class="vivio"><div class="nh"><img alt="NEOX" src="'+IMGS['neox.jpg']+'"><div><b>LO QUE VIVIÓ NEOX</b><span>Área · '+esc(it[1])+'</span></div></div>'+it[2].map(p=>'<p>'+esc(p)+'</p>').join('')+'</aside>';
+  if(t==='voz')return '<aside class="voz"><b>LA VOZ DE NEOX</b>'+it[1].map(p=>'<p>'+esc(p)+'</p>').join('')+'</aside>';
+  if(t==='cuaderno')return '<div class="cuad"><b>CUADERNO DE ACCIÓN</b>'+it[1].map(p=>'<p>'+esc(p)+'</p>').join('')+'</div>';
+  return '';}).join('')}
+function bar(title,idx){
+  const pct=idx==null?0:Math.round((idx+1)/PAGES.length*100);
+  return '<div class="bar"><div class="wrap"><button class="btn" id="b-ind" aria-label="Volver al índice">Índice</button><div class="t">'+esc(title)+'</div>'+
+  '<button class="btn" id="b-m" aria-label="Letra más pequeña">A−</button><button class="btn" id="b-p" aria-label="Letra más grande">A+</button></div><div class="prog"><i style="width:'+pct+'%"></i></div></div>';
+}
+function home(){
+  const last=store.get('egm-last');const lp=PAGES.find(p=>p.id===last);
+  let h='<header class="cover" style="background-image:url('+IMGS['mod01.jpg']+')"><div class="wrap"><small>Edición con las historias de NEOX</small><h1>EL GRAN MANIFESTADOR</h1><p>Siete módulos. Cuarenta y nueve lecciones. Una vida construida con intención y acción.</p>'+
+    (lp?'<button class="btn solid" data-go="'+lp.id+'">Seguir leyendo · '+esc(lp.label)+'</button>':'<button class="btn solid" data-go="'+PAGES[0].id+'">Empezar a leer</button>')+'</div></header>';
+  h+='<main class="wrap home"><div class="sect">Antes de empezar</div><div class="links">'+BOOK.front.map(f=>'<button class="link" data-go="'+f.id+'">'+esc(f.title)+'<span>'+esc(f.kicker)+'</span></button>').join('')+'</div>';
+  h+='<div class="sect">Los siete módulos</div>';
+  BOOK.modules.forEach(m=>{
+    h+='<section class="mod"><button data-go="m'+m.n+'"><div class="img" style="background-image:url('+IMGS[m.img]+')"></div><div class="mt"><small>MÓDULO '+(+m.n)+'</small><b>'+esc(cap(m.title))+'</b></div></button><ol>'+
+      m.lessons.map(l=>'<li><button data-go="m'+m.n+'-l'+l.n+'" class="'+(l.body.some(b=>b[0]==='vivio')?'neoxdot':'')+'"><em>'+l.n+'</em><span>'+esc(l.title)+'</span></button></li>').join('')+
+      (m.cierre?'<li><button data-go="m'+m.n+'-cierre"><em>·</em><span>Cierre del módulo y plan de 7 días</span></button></li>':'')+'</ol></section>';
+  });
+  h+='<div class="sect">Para terminar</div><div class="links">'+BOOK.back.map(f=>'<button class="link" data-go="'+f.id+'">'+esc(f.title)+'<span>'+esc(f.kicker)+'</span></button>').join('')+'</div></main>';
+  return h;
+}
+function page(p){
+  const d=p.data;let h='';
+  if(p.kind==='front'){
+    h='<div class="kick">'+esc(d.kicker)+'</div><h1>'+esc(d.title)+'</h1>'+(d.id==='neox'?'<div class="hero" style="height:140px;width:140px;border-radius:50%;background-image:url('+IMGS['neox.jpg']+')"></div>':'')+body(d.body);
+    if(d.areas)h+='<div class="areas">'+d.areas.map(a=>'<div class="area"><b>'+esc(a[0])+'</b>'+esc(a[1])+'</div>').join('')+'</div>'+(d.after||[]).map(x=>'<p>'+esc(x)+'</p>').join('');
+  }else if(p.kind==='modintro'){
+    h='<div class="hero" style="background-image:url('+IMGS[d.img]+')"></div><div class="kick">Módulo '+(+d.n)+' de 7</div><h1>'+esc(cap(d.title))+'</h1>'+d.intro.map(x=>'<p>'+esc(x)+'</p>').join('')+
+      '<h2>Tu ruta de siete lecciones</h2><ol class="ruta">'+d.ruta.map(r=>'<li>'+esc(r)+'</li>').join('')+'</ol>';
+  }else if(p.kind==='lesson'){
+    h='<div class="kick">Módulo '+(+p.mod.n)+' · Lección '+(+d.n)+' de 7</div><h1>'+esc(d.title)+'</h1><p class="sub">'+esc(d.sub)+'</p>'+body(d.body);
+  }else if(p.kind==='cierre'){
+    h='<div class="kick">Cierre del módulo '+(+p.mod.n)+'</div><h1>'+esc(d.title)+'</h1>'+body(d.body)+'<h2>Tu plan de siete días</h2><ul class="plan">'+d.plan.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul>'+(d.frase?'<blockquote>«'+esc(d.frase)+'»</blockquote>':'');
+  }else if(p.kind==='anexo'){
+    const areas=['Desarrollo personal','Negocio','Hijos','Pareja'];
+    h='<div class="kick">Anexo</div><h1>'+esc(d.title)+'</h1><p>Las lecciones en las que NEOX cuenta una historia vivida, ordenadas por las cuatro áreas de su vida. Toca una para ir directamente.</p><div class="anx">'+
+      areas.map(a=>{const it=d.stories.filter(s=>s[0].toLowerCase().startsWith(a.toLowerCase().slice(0,6)));
+        return '<h2>'+a+'</h2>'+(it.length?'<div class="links">'+it.map(s=>'<button class="link" data-go="m'+s[1]+'-l'+s[2]+'">'+esc(s[3])+'<span>M'+(+s[1])+' · L'+(+s[2])+'</span></button>').join('')+'</div>':'<p><em>Las historias de NEOX en esta área llegarán en la próxima edición.</em></p>')}).join('')+'</div>';
+  }
+  return h;
+}
+function render(){
+  const id=location.hash.slice(1);const idx=PAGES.findIndex(p=>p.id===id);
+  const app=$('#app');
+  if(idx<0){app.innerHTML=home();bind();window.scrollTo(0,0);return}
+  const p=PAGES[idx],prev=PAGES[idx-1],next=PAGES[idx+1];
+  store.set('egm-last',p.id);
+  app.innerHTML=bar(p.mod?'Módulo '+(+p.mod.n)+' · '+cap(p.mod.title):'El Gran Manifestador',idx)+
+    '<main class="wrap read">'+page(p)+'</main><nav class="wrap nav">'+
+    '<button '+(prev?'data-go="'+prev.id+'"':'disabled')+'><small>ANTERIOR</small>'+(prev?esc(prev.label):'')+'</button>'+
+    '<button class="next" '+(next?'data-go="'+next.id+'"':'data-go=""')+'><small>'+(next?'SIGUIENTE':'FIN')+'</small>'+(next?esc(next.label):'Volver al índice')+'</button></nav>';
+  bind();window.scrollTo(0,0);
+}
+function bind(){
+  document.querySelectorAll('[data-go]').forEach(b=>b.addEventListener('click',()=>{const g=b.getAttribute('data-go');location.hash=g?g:'';if(!g)render()}));
+  const ind=$('#b-ind');if(ind)ind.onclick=()=>{location.hash='';render()};
+  const m=$('#b-m'),pl=$('#b-p');
+  if(m)m.onclick=()=>{size=Math.max(15,size-1);store.set('egm-size',size);applySize()};
+  if(pl)pl.onclick=()=>{size=Math.min(26,size+1);store.set('egm-size',size);applySize()};
+}
+window.addEventListener('hashchange',render);
+render();
+</script>
