@@ -60,3 +60,6 @@ Dices que quieres más dinero y pasas la tarde con quien solo se queja. Dices qu
 
 ## H17 · Víctima o creador (vídeo 3 del capítulo 1)
 Mismo atasco, mismo jefe, misma lluvia, y dos formas de vivirlo. En modo víctima te quejas, esperas y dudas. En modo creador decides, actúas y demuestras. Todos tenemos días en modo víctima, NEOX también; la diferencia está en cuánto tiempo te quedas ahí. Propuesta: hoy, antes de dormir, haz una sola cosa en modo creador, la que llevas días evitando.
+
+## H18 · Invierte en ti (área: Desarrollo personal)
+NEOX tuvo claro que antes de pedirle nada a la vida tiene que saber quién quiere ser, qué identidad quiere encarnar. El primer paso no es esperar: es invertir en ti constantemente, en habilidades y conocimiento, porque cada cosa que aprendes acorta el camino hasta tu destino. Se acelera aún más aprendiendo de un mentor que ya ha llegado donde quieres estar y que ya cometió los errores que te vas a ahorrar. Invertir así, con inteligencia, multiplica la inversión y vuelve por diez: en tiempo, en dinero y en decisiones acertadas. Matiz obligatorio: no es comprar el primer curso que promete el cielo, es elegir a alguien con resultados reales en lo que quieres conseguir. Propuesta: escribe quién quieres ser y pregúntate quién ha llegado ya ahí.

@@ -1,0 +1,16 @@
+EL GRAN MANIFESTADOR · EDICIÓN CON LAS HISTORIAS DE NEOX
+Cómo se actualiza el libro
+
+Regla: cada historia nueva de NEOX (vídeo o vivencia) se incorpora también al libro.
+
+1. Se añade la historia a BANCO_NEOX.md (es la única fuente de hechos de NEOX).
+2. Se elige la lección que mejor encaja y se sustituye su bloque @NEOX_VOZ por @NEOX_VIVIO <área>
+   en el archivo del módulo (m01.txt a m07.txt). Áreas: Desarrollo personal, Negocio, Hijos, Pareja.
+3. Se regenera la maqueta:
+     python3 build.py                (crea libro.html)
+     node pdf.js libro.html libro.pdf
+   y se exportan PDF, texto y Word a la carpeta libro/.
+El anexo "Las historias de NEOX en este libro" se actualiza solo.
+
+Historias ya incorporadas: ver BANCO_NEOX.md (H1 a H18).
+Área Hijos: todavía sin historias.
