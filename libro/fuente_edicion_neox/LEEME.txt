@@ -28,3 +28,7 @@ FORMATOS DE VÍDEO DE NEOX (acordados con el autor)
     5. CTA (llamada a la acción: seguir, comentar, guardar...)
   Se activa cuando el autor escribe SHORTS. NEOX de pie con traje, plano único, sin imágenes
   de apoyo; cada parte de la estructura lleva su frase grande en pantalla.
+
+REGLA DE PANTALLA (para todos los formatos, desde el vídeo 15b)
+- Se mantienen los subtítulos.
+- Frase grande de arriba (título): UNA SOLA durante todo el vídeo, fija, sin cambiar.
