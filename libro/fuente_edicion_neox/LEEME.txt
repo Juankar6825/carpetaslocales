@@ -14,3 +14,9 @@ El anexo "Las historias de NEOX en este libro" se actualiza solo.
 
 Historias ya incorporadas: ver BANCO_NEOX.md (H1 a H19).
 Área Hijos: todavía sin historias.
+
+FORMATOS DE VÍDEO DE NEOX (acordados con el autor)
+- Por defecto: vídeo de NEOX de ~1 minuto (traje, plano único, subtítulos, frases grandes,
+  3 imágenes de apoyo, cierre "Sígueme"), sin etiqueta arriba.
+- PODCAST: cuando el autor pasa la descripción de un vídeo y dice PODCAST, se hace un vídeo
+  de ~45 segundos con NEOX sentado en un escenario de podcast (sillón, micrófono, teatro negro).
