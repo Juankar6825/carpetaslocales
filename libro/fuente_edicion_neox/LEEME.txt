@@ -12,5 +12,5 @@ Regla: cada historia nueva de NEOX (vídeo o vivencia) se incorpora también al 
    y se exportan PDF, texto y Word a la carpeta libro/.
 El anexo "Las historias de NEOX en este libro" se actualiza solo.
 
-Historias ya incorporadas: ver BANCO_NEOX.md (H1 a H18).
+Historias ya incorporadas: ver BANCO_NEOX.md (H1 a H19).
 Área Hijos: todavía sin historias.
