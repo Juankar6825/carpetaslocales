@@ -26,3 +26,5 @@ FORMATOS DE VÍDEO DE NEOX (acordados con el autor)
     3. Agitación (por qué duele / qué cuesta seguir así)
     4. Solución
     5. CTA (llamada a la acción: seguir, comentar, guardar...)
+  Se activa cuando el autor escribe SHORTS. NEOX de pie con traje, plano único, sin imágenes
+  de apoyo; cada parte de la estructura lleva su frase grande en pantalla.
