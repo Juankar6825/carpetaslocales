@@ -10,19 +10,24 @@ Objetivo: que la persona desprograme los mecanismos del ego, conecte con su Ser 
 Precio: 47 €.
 Lanzamiento: sin fecha cerrada. Primero se termina una experiencia de calidad; después, estrategia de contenido para generar expectación antes de abrir ventas.
 
+## Terminología (decisión del autor)
+- Se dice siempre "la Divinidad", nunca "Dios".
+- Se dice siempre "los Ángeles", nunca "el Espíritu Santo".
+Aplica a lecciones, audios, oraciones, guiones y vídeos de NEOX.
+
 ## El método (palabras del autor)
-La rendición: dejar de luchar contra lo que estás sintiendo, dejar de resistirte y de alimentar las historias del ego. No se trata de recrearse en la emoción ni de intentar eliminarla por la fuerza, sino de renunciar al placer secreto que mantiene ese patrón, entregar la resistencia a Dios o al Espíritu Santo y permitir que se disuelva.
+La rendición: dejar de luchar contra lo que estás sintiendo, dejar de resistirte y de alimentar las historias del ego. No se trata de recrearse en la emoción ni de intentar eliminarla por la fuerza, sino de renunciar al placer secreto que mantiene ese patrón, entregar la resistencia a la Divinidad o a los Ángeles y permitir que se disuelva.
 
-Después: cambiar el foco hacia Dios, conectar con un estado de conciencia más elevado y actuar desde esa nueva identidad.
+Después: cambiar el foco hacia la Divinidad, conectar con un estado de conciencia más elevado y actuar desde esa nueva identidad.
 
-El método no consiste en manifestar desde la carencia, el esfuerzo o el control, sino desde la rendición, la presencia de Dios y la acción inspirada.
+El método no consiste en manifestar desde la carencia, el esfuerzo o el control, sino desde la rendición, la presencia de la Divinidad y la acción inspirada.
 
 Secuencia del método:
 1. Reconocer lo que sientes sin luchar contra ello.
 2. No alimentar la historia del ego ni recrearte en la emoción.
 3. Renunciar al placer secreto que mantiene el patrón.
-4. Entregar la resistencia a Dios o al Espíritu Santo y permitir que se disuelva.
-5. Cambiar el foco hacia Dios y conectar con un estado de conciencia más elevado.
+4. Entregar la resistencia a la Divinidad o a los Ángeles y permitir que se disuelva.
+5. Cambiar el foco hacia la Divinidad y conectar con un estado de conciencia más elevado.
 6. Actuar desde la nueva identidad (acción inspirada).
 
 ## Cómo es NEOX
