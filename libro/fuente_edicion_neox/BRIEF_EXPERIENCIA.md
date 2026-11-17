@@ -3,7 +3,7 @@
 Documento de referencia con la visión del autor. Se usa para escribir guiones, lecciones, audios y el contenido de lanzamiento.
 
 ## Qué es
-Una experiencia de transformación espiritual completa, con NEOX como protagonista y guía. No es un libro digital para leer en el móvil: el usuario vive un proceso a través de módulos, enseñanzas, ejercicios prácticos, audios, oraciones y desafíos.
+Una experiencia de transformación espiritual completa, con NEOX como protagonista y guía. No es un libro digital para leer en el móvil: el usuario vive un proceso a través de módulos, enseñanzas, ejercicios prácticos, audios y desafíos.
 
 Objetivo: que la persona desprograme los mecanismos del ego, conecte con su Ser más elevado y manifieste desde un nuevo nivel de conciencia. Que no solo entienda la transformación, sino que la experimente en su propia vida.
 
@@ -13,7 +13,7 @@ Lanzamiento: sin fecha cerrada. Primero se termina una experiencia de calidad; d
 ## Terminología (decisión del autor)
 - Se dice siempre "la Divinidad", nunca "Dios".
 - Se dice siempre "los Ángeles", nunca "el Espíritu Santo".
-Aplica a lecciones, audios, oraciones, guiones y vídeos de NEOX.
+Aplica a lecciones, audios, guiones y vídeos de NEOX.
 
 ## El método (palabras del autor)
 La rendición: dejar de luchar contra lo que estás sintiendo, dejar de resistirte y de alimentar las historias del ego. No se trata de recrearse en la emoción ni de intentar eliminarla por la fuerza, sino de renunciar al placer secreto que mantiene ese patrón, entregar la resistencia a la Divinidad o a los Ángeles y permitir que se disuelva.
@@ -47,3 +47,10 @@ Cuatro series:
 3. Ejercicios de rendición (practicar el método).
 4. Transformación de la identidad (el método en la vida real de NEOX).
 Cuando se presente la experiencia de 47 €, la audiencia ya conocerá el método y verá a NEOX como guía de un proceso más profundo.
+
+## Estructura de cada día de la experiencia (piloto)
+1. Enseñanza de NEOX (texto corto).
+2. Audio de NEOX con su voz (enseñanza o práctica guiada).
+3. Ejercicio de rendición (los seis pasos aplicados al tema del día).
+4. Desafío de 24 horas.
+Sin oraciones (decisión del autor).
