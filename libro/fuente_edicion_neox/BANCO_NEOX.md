@@ -69,3 +69,6 @@ Cuando NEOX empieza a encarnar su nueva identidad, al principio parece que todo 
 
 ## H20 · Fregar los cacharros a las once de la noche (área: Desarrollo personal)
 A las once de la noche NEOX tiene que fregar los cacharros y quiere hacerlo conectado con su ser. Sabe que fregar no mola, pero si quiere encarnar la identidad de una persona exitosa se pregunta: ¿qué haría un exitoso fregando los cacharros? Hacerlo de forma que la pila quede limpia y la cocina súper limpia. Cuando la cocina reluce, está dando una imagen al universo de que todo está limpio y ordenado, y eso es ordenar y limpiar la mente. Enseñanza: hasta lo más mundano del día a día tiene repercusión para manifestar lo más grande. Propuesta: haz una tarea pequeña como la haría tu mejor versión.
+
+## H21 · Sostener la resistencia cuando se acumula todo en el despacho (área: Negocio)
+En el negocio se le han acumulado todas las cosas importantes, no tiene tiempo para terminarlas y tiene que reestructurar mucho para organizar las tareas y los roles en el despacho. Tuvo que sostener la resistencia. Enseñanza (método): no luchar contra ella ni alimentar la historia del ego, entregarla a la Divinidad, respirar y cambiar el foco; desde la calma, reorganizar: qué hago yo, qué delego y qué puede esperar. Desde la calma se organiza mejor que desde el miedo.
