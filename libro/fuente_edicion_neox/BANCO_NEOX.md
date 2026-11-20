@@ -72,3 +72,6 @@ A las once de la noche NEOX tiene que fregar los cacharros y quiere hacerlo cone
 
 ## H21 · Sostener la resistencia cuando se acumula todo en el despacho (área: Negocio)
 En el negocio se le han acumulado todas las cosas importantes, no tiene tiempo para terminarlas y tiene que reestructurar mucho para organizar las tareas y los roles en el despacho. Tuvo que sostener la resistencia. Enseñanza (método): no luchar contra ella ni alimentar la historia del ego, entregarla a la Divinidad, respirar y cambiar el foco; desde la calma, reorganizar: qué hago yo, qué delego y qué puede esperar. Desde la calma se organiza mejor que desde el miedo.
+
+## H22 · Sé jefe, no padre (área: Negocio)
+Un día en la oficina NEOX se dio cuenta de que no actuaba como un verdadero jefe sino como un padre: sobreprotegía al equipo (les resolvía los problemas, hacía lo que les tocaba a ellos, evitaba exigir para no incomodar). Enseñanza (mecanismo del ego): le gustaba sentirse imprescindible y se ahorraba la incomodidad de poner límites (placer secreto). Lo reconoció, lo entregó a la Divinidad: cuando sobreproteges no dejas crecer; un verdadero jefe confía, exige con amor y deja que cada uno asuma su responsabilidad. Propuesta: cuando alguien del equipo te traiga un problema, pregúntale "¿tú qué harías?". Cuidar también es dejar crecer.
