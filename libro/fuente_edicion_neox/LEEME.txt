@@ -32,3 +32,7 @@ FORMATOS DE VÍDEO DE NEOX (acordados con el autor)
 REGLA DE PANTALLA (para todos los formatos, desde el vídeo 15b)
 - Se mantienen los subtítulos.
 - Frase grande de arriba (título): UNA SOLA durante todo el vídeo, fija, sin cambiar.
+
+REGLA DE AUTOCRÍTICA (decisión del autor)
+Cada vídeo se analiza sin complacer. Antes de generarlo y al entregarlo se señala siempre al menos un fallo o algo a mejorar (gancho, claridad para un desconocido, ritmo, texto en pantalla con el móvil en silencio, llamada a comentar, duración) y se aplica en el siguiente. Los datos reales de TikTok (Windsor) mandan sobre las suposiciones.
+Aprendido del vídeo 1 de TikTok: el 64 % se iba antes del segundo 2. Gancho en el segundo 0, título que entienda un desconocido, nada de presentaciones, 20-25 s, pedir el comentario en voz alta.
