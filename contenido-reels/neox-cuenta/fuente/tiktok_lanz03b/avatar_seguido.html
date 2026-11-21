@@ -34,7 +34,7 @@ window.renderFrame=(t)=>{
   
   // frase clave: en las pausas (y el gancho inicial) en grande arriba
   D.keys.forEach(([k0,txt],i)=>{const k1=i<D.keys.length-1?D.keys[i+1][0]:end;if(t<k0||t>=k1)return;const [a,b2]=txt.split('|');const fo=1-pr(t,k1-.2,k1);g.save();g.globalAlpha=fo;slam(a,540,390,t,k0,{size:96,stroke:12,from:1.8,maxW:960});slam(b2,540,520,t,k0+.12,{size:128,gold:true,glow:45,stroke:14,from:2,maxW:980});g.restore()});
-  for(const [a,b,c] of (D.steps||[])){if(t>=a&&t<b){const [n,wd]=c.split('|');g.save();g.globalAlpha=Math.min(1,(b-t)/.15);slam(n,925,760,t,a,{size:230,gold:true,glow:60,stroke:16,from:2.6});slam(wd,925,905,t,a+.15,{size:64,stroke:10,from:1.8,maxW:290});g.restore()}}
+  for(const [a,b,c] of (D.steps||[])){if(t>=a&&t<b){const [n,wd]=c.split('|');g.save();g.globalAlpha=Math.min(1,(b-t)/.15);slam(n,955,715,t,a,{size:230,gold:true,glow:60,stroke:16,from:2.6});slam(wd,955,870,t,a+.15,{size:80,stroke:12,from:1.8,maxW:235});g.restore()}}
   for(const [a,b,c] of D.caps){if(t>=a&&t<b){const q=eOut(pr(t,a,a+.12));T(c.toUpperCase(),520,1290,{size:70,stroke:12,maxW:800,scale:lerp(1.08,1,q),alpha:clamp((t-a)/.06)})}}
  }else{
   const q=pr(t,end,end+.35);g.save();g.globalAlpha=q*.35;g.fillStyle='#000';g.fillRect(0,0,W,H);g.restore();
