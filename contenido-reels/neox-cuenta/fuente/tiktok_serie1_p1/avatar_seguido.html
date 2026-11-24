@@ -42,6 +42,7 @@ window.renderFrame=(t)=>{
   T('EL GRAN MANIFESTADOR',540,300,{f:'Cinzel',w:900,size:56,gold:true,sp:4,glow:20,alpha:q,maxW:900});
   slam('SÍGUEME',540,480,t,end+.05,{size:190,gold:true,glow:60,stroke:14,from:2.4});
   if(D.endnote)T(D.endnote,540,640,{size:62,stroke:10,sp:2,alpha:q,maxW:900});
+  if(D.endq){const [qa,qb]=D.endq.split('|');g.save();g.globalAlpha=q*.55;g.fillStyle='#000';g.fillRect(0,780,W,300);g.restore();T(qa,540,860,{size:68,stroke:10,alpha:q,maxW:980});slam(qb,540,990,t,end+.45,{size:118,gold:true,glow:45,stroke:14,from:2,maxW:980})}
   const bp=eOut(pr(t,end+.4,end+.8));if(bp>0){const pulse=1+.04*Math.sin(t*7);g.save();g.translate(540,1250);g.scale(bp*pulse,bp*pulse);g.shadowColor='#ff8a1f';g.shadowBlur=40;const bg=g.createLinearGradient(-300,0,300,0);bg.addColorStop(0,'#ff8a1f');bg.addColorStop(1,'#f5b942');g.fillStyle=bg;g.beginPath();g.roundRect(-300,-70,600,140,70);g.fill();g.restore();T('+ SEGUIR',540,1252,{size:80,color:'#1a0d03',sp:4,scale:bp*pulse})}
  }
  const v=g.createRadialGradient(540,960,560,540,960,1150);v.addColorStop(0,'rgba(0,0,0,0)');v.addColorStop(1,'rgba(0,0,0,.5)');g.fillStyle=v;g.fillRect(0,0,W,H);
