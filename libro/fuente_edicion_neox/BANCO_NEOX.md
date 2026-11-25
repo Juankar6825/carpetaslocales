@@ -87,3 +87,6 @@ Un sábado NEOX va de tiendas a comprar ropa a su hija de 15 años. Antes eso er
 
 ## H26 · El móvil en la cena (área: Hijos · Lo que toleras, parte 3)
 En la cena en familia todos están con el móvil, NEOX también. Se da cuenta de que lo que toleras en casa, tus hijos lo aprenden: no aprenden de lo que les dices, sino de lo que te ven hacer. Sin sermones, deja su móvil el primero, boca abajo junto al plato, y pregunta: "¿Qué ha sido lo mejor de tu día?". Enseñanza: un gesto pequeño y repetible vale más que una norma; el ejemplo educa. Propuesta: esta noche deja tu móvil el primero y haz esa pregunta. ¿Quién deja hoy el móvil primero en tu casa? Escribe YO.
+
+## H27 · El lunes que nunca llega (área: Desarrollo personal · Lo que toleras, parte 4)
+NEOX lleva tres años diciendo "el lunes empiezo". Un sábado se da cuenta de que lo que toleras de ti es tu techo: si te permites aplazarlo, manifiestas una vida en espera. No espera al lunes: se ata las zapatillas en el portal y sale. Diez minutos, no hace falta más. Enseñanza: un primer paso pequeño hecho hoy vale más que años de buenas intenciones. Propuesta: lo que llevas tiempo dejando para el lunes, hazlo hoy aunque sean diez minutos. ¿Empiezas hoy? Escribe HOY.
