@@ -3,10 +3,10 @@ Título propuesto: Lo que toleras se repite: 4 claves para manifestar en tu día
 Presenta: Juankar, a cámara, de tú a tú
 Fuentes: las historias de NEOX (todas reales, del libro), los códigos de Pablo Merino (@soysuprahumano) y el Transurfing de Vadim Zeland
 
-Ritmo: unas 140 palabras por minuto. Lo que va entre corchetes son indicaciones de plano o de montaje, no se dice.
+Ritmo: unas 140 palabras por minuto; unas 1.900 palabras habladas, entre 14 y 15 minutos con las pausas. Lo que va entre corchetes son indicaciones de plano o de montaje, no se dice.
 
 
-## 0:00 – 0:45 · Gancho
+## 0:00 – 0:50 · Gancho
 
 [Primer plano, sin música. Directo.]
 
@@ -21,7 +21,7 @@ Quédate conmigo estos quince minutos, porque te voy a dar cuatro claves y una p
 [Rótulo: LO QUE TOLERAS SE REPITE]
 
 
-## 0:45 – 2:00 · Quién soy y qué te vas a llevar
+## 0:50 – 2:10 · Quién soy y qué te vas a llevar
 
 [Plano medio, más relajado. Música suave de fondo.]
 
@@ -42,7 +42,7 @@ No te voy a vender magia. Te voy a contar lo que hago yo cuando la vida aprieta.
 [Rótulo: 4 CLAVES · 1 PRÁCTICA DE 7 DÍAS]
 
 
-## 2:00 – 5:00 · Clave 1: manifiestas lo que toleras
+## 2:10 – 4:40 · Clave 1: manifiestas lo que toleras
 
 [Plano medio. B-roll: el vídeo de NEOX con el café frío.]
 
@@ -68,8 +68,12 @@ Te lo pregunto en serio: ¿cuál es tu café frío? Eso que te tragas cada día 
 
 [Pausa de 2 segundos mirando a cámara.]
 
+Y te doy un truco para encontrarlo, porque a veces está tan normalizado que ni lo ves. Fíjate en tu cuerpo. Cuando dices que sí y por dentro algo se encoge. Cuando sales de una conversación con el estómago apretado. Cuando miras el móvil y ves un nombre y te cambia la cara. Ahí hay algo que estás tolerando.
 
-## 5:00 – 8:00 · Clave 2: no te dejes enganchar por los péndulos
+No tienes que arreglarlo todo hoy. Solo verlo. Porque lo que ves, ya no te maneja igual. Y lo que no ves, se repite una y otra vez, como un disco rayado.
+
+
+## 4:40 – 6:50 · Clave 2: no te dejes enganchar por los péndulos
 
 [Plano medio. B-roll: NEOX en la reunión de vecinos.]
 
@@ -100,7 +104,7 @@ Y tercero, pregúntate: ¿esto es mío o me estoy enganchando a un péndulo?
 Muchas veces, solo con eso, ya no te arrastra.
 
 
-## 8:00 – 11:00 · Clave 3: vive ya como la persona que quieres ser
+## 6:50 – 9:15 · Clave 3: vive ya como la persona que quieres ser
 
 [Plano medio, tono más cálido. B-roll: NEOX en el hotel, NEOX fregando, NEOX de tiendas con su hija.]
 
@@ -125,7 +129,7 @@ Pablo Merino lo resume de una forma que me llega mucho: tú eliges cómo quieres
 Así que te dejo esta pregunta para esta semana: ¿qué haría hoy la persona que quieres ser? No dentro de un año. Hoy. En la cola del súper, en el atasco, fregando.
 
 
-## 11:00 – 13:30 · Clave 4: suelta el resultado, sostén la acción
+## 9:15 – 12:30 · Clave 4: suelta el resultado, sostén la acción
 
 [Plano más cerrado. Tono más íntimo.]
 
@@ -145,14 +149,38 @@ Pablo lo dice de otra manera: haz lo que te toca y suelta el resultado. Actúa d
 
 Y esto es importante, porque mucha gente confunde soltar con quedarse quieto. No. Soltar el resultado no es dejar de actuar. Es actuar sin agarrarte. Haces la llamada, mandas el presupuesto, tienes la conversación pendiente… y luego confías. En la vida, en la Divinidad, en los Ángeles, en lo que tú sientas.
 
+Y te cuento algo que descubrí justo en esa época, y que me escoció.
+
+Un día en la oficina me di cuenta de que no estaba actuando como un jefe. Estaba actuando como un padre. Les resolvía los problemas a todos, hacía cosas que les tocaban a ellos, evitaba exigir para no incomodar.
+
+¿Y sabes por qué lo hacía? Porque en el fondo me gustaba sentirme imprescindible. Y además me ahorraba el mal rato de poner límites. Ese es el truco del ego: te da un pequeño placer secreto a cambio de que no cambies.
+
+Cuando lo vi, lo entregué. Y empecé a hacer una cosa muy simple: cuando alguien del equipo me trae un problema, le pregunto: "¿Tú qué harías?". Cuidar también es dejar crecer.
+
+Y con mi hija me pasa algo parecido. Tiene quince años. Un fin de semana fuimos a ver las luces de Navidad de Madrid, ella con sus amigas y yo con mi mujer y nuestros amigos. Y en un rato, solo los dos, le dije: "No soy un padre perfecto, pero soy honesto. Confío en ti. Aquí estoy para cuando quieras. Pero te toca vivir tu vida". Soltar el control también es una forma de amor.
+
+[Rótulo: CUIDAR TAMBIÉN ES DEJAR CRECER]
+
 Y yo te digo una cosa: desde que hago esto, no tengo menos trabajo. Pero lo vivo de otra manera. Y eso lo cambia todo.
 
 
-## 13:30 – 15:00 · Práctica de 7 días y cierre
+## 12:30 – 15:00 · Práctica de 7 días y cierre
 
 [Plano medio. Mirando a cámara, cercano.]
 
-Te dejo una práctica muy sencilla para los próximos siete días. Apúntala.
+Recapitulo, porque son cuatro ideas y quiero que te las lleves claras.
+
+Una: manifiestas lo que toleras. Empieza por el café frío.
+
+Dos: cuando algo te engancha, vuelve a tu metro cuadrado, respira y nombra lo que sientes. No le des tu energía al péndulo.
+
+Tres: no esperes a llegar. Vive hoy como la persona que quieres ser, también fregando.
+
+Y cuatro: haz lo que te toca y suelta el resultado. Desde la calma, no desde el miedo.
+
+[Rótulo con las 4 claves en lista, una por línea.]
+
+Y ahora, para que esto no se quede en un vídeo bonito, te dejo una práctica muy sencilla para los próximos siete días. Apúntala.
 
 Cada noche, antes de dormir, tres preguntas. Solo tres.
 
@@ -188,4 +216,4 @@ Notas para la grabación
 - Las historias son las del libro y las has vivido tú. Si al grabar te sale contarlas con más detalle real, mejor todavía.
 - Las ideas de Pablo Merino y de Vadim Zeland están explicadas con palabras mías. Conviene nombrarlos como en el guion y poner en la descripción a @soysuprahumano y el libro "Transurfing" de Vadim Zeland.
 - El enlace del capítulo 1 solo se puede decir cuando la página de MailerLite esté funcionando. Si grabas antes, cambia la frase por: "Muy pronto te regalaré el primer capítulo de mi libro; suscríbete para no perdértelo".
-- Si te pasas de tiempo, la parte que mejor se puede recortar es el ejemplo del hotel (clave 3).
+- Si te pasas de tiempo, lo que mejor se puede recortar es el ejemplo del hotel (clave 3). Si te quedas corto, alarga las historias con detalles reales de cómo lo viviste.
